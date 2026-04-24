@@ -1,4 +1,4 @@
-package com.example.would_you_rather_app
+package com.ofcode.wouldyouratherapp
 
 import io.flutter.embedding.android.FlutterActivity
 
