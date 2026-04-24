@@ -1,50 +1,48 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../app/router.dart';
+import '../quiz/providers/quiz_controller.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Would You Rather'),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(24),
-        child: Center(
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(24),
           child: Column(
-            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              const Text(
-                'Ana Ekran',
-                style: TextStyle(
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 12),
-              const Text(
-                'Branch 1 placeholder home screen',
+              const Spacer(),
+              Text(
+                'Would You Rather?',
+                style: Theme.of(context).textTheme.headlineMedium,
                 textAlign: TextAlign.center,
               ),
-              const SizedBox(height: 32),
-              SizedBox(
-                width: double.infinity,
-                child: FilledButton(
-                  onPressed: () => context.go(AppRoutes.quiz),
-                  child: const Text('Start Quiz'),
-                ),
+              const SizedBox(height: 12),
+              Text(
+                'İki seçenekten birini seç, quiz’i tamamla.',
+                style: Theme.of(context).textTheme.bodyLarge,
+                textAlign: TextAlign.center,
+              ),
+              const Spacer(),
+              ElevatedButton(
+                onPressed: () {
+                  ref.read(quizControllerProvider.notifier).reset();
+                  context.go('/quiz');
+                },
+                child: const Text('Başla'),
               ),
               const SizedBox(height: 12),
-              SizedBox(
-                width: double.infinity,
-                child: OutlinedButton(
-                  onPressed: () => context.go(AppRoutes.settings),
-                  child: const Text('Settings'),
-                ),
+              OutlinedButton(
+                onPressed: () => context.go('/settings'),
+                child: const Text('Ayarlar'),
               ),
             ],
           ),
