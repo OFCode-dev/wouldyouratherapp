@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bu mu, O mu?</title>
+  <meta name="description" content="İki seçenekli eğlenceli sorularla tarzını keşfet.">
+  <style>
+    :root {
+      --bg: #fff7ed;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #f97316;
+      --primary-dark: #ea580c;
+      --border: #fed7aa;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #fff7ed 0%, #ffffff 55%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 28px 20px;
+    }
+
+    nav {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      font-weight: 800;
+      font-size: 22px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    a {
+      color: var(--primary-dark);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 28px;
+      align-items: center;
+      padding: 48px 0 56px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--primary-dark);
+      background: #ffedd5;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 0.95;
+      margin: 20px 0;
+      letter-spacing: -0.04em;
+    }
+
+    .lead {
+      font-size: 20px;
+      color: var(--muted);
+      max-width: 620px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 18px;
+      border-radius: 14px;
+      background: var(--primary);
+      color: white;
+      font-weight: 800;
+      box-shadow: 0 10px 24px rgba(249, 115, 22, 0.24);
+    }
+
+    .button.secondary {
+      background: white;
+      color: var(--primary-dark);
+      border: 1px solid var(--border);
+      box-shadow: none;
+    }
+
+    .phone-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 24px;
+      box-shadow: 0 20px 50px rgba(249, 115, 22, 0.15);
+    }
+
+    .screen {
+      border-radius: 24px;
+      background: #111827;
+      color: white;
+      min-height: 420px;
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .choice {
+      background: rgba(255,255,255,0.12);
+      padding: 18px;
+      border-radius: 18px;
+      margin-top: 12px;
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    section {
+      padding: 42px 0;
+    }
+
+    h2 {
+      font-size: 34px;
+      margin: 0 0 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 40px;
+      padding: 28px 20px;
+      color: var(--muted);
+    }
+
+    footer .inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 820px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="brand">Bu mu, O mu?</div>
+      <div class="nav-links">
+        <a href="#features">Özellikler</a>
+        <a href="#privacy">Gizlilik</a>
+        <a href="privacy-policy/">Privacy Policy</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <span class="badge">Eğlenceli tercih oyunu</span>
+        <h1>Seç, keşfet, paylaş.</h1>
+        <p class="lead">
+          Bu mu, O mu? kısa ve eğlenceli seçimlerle tarzını keşfetmeni sağlayan sade bir tercih oyunudur.
+          İki seçenekten birini seç, sonucu gör ve istersen paylaş.
+        </p>
+        <div class="actions">
+          <a class="button" href="#features">Uygulamayı keşfet</a>
+          <a class="button secondary" href="privacy-policy/">Gizlilik politikasını oku</a>
+        </div>
+      </div>
+
+      <div class="phone-card">
+        <div class="screen">
+          <div>
+            <p class="muted" style="color:#d1d5db;">Bugünün sorusu</p>
+            <h2 style="color:white;">Hangisi sensin?</h2>
+          </div>
+          <div>
+            <div class="choice">Çay</div>
+            <div class="choice">Kahve</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <h2>Öne çıkanlar</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Hızlı seçimler</h3>
+          <p class="muted">Kısa iki seçenekli sorularla hızlı ve sade bir quiz deneyimi.</p>
+        </div>
+        <div class="card">
+          <h3>Eğlenceli sonuçlar</h3>
+          <p class="muted">Seçimlerine göre eğlenceli bir sonuç profili gör.</p>
+        </div>
+        <div class="card">
+          <h3>Paylaşılabilir</h3>
+          <p class="muted">Sonucunu cihazının paylaşım menüsüyle kolayca paylaş.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy">
+      <h2>Gizlilik odaklı basit deneyim</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Hesap yok</h3>
+          <p class="muted">Uygulamayı kullanmak için kayıt veya giriş gerekmez.</p>
+        </div>
+        <div class="card">
+          <h3>Reklam yok</h3>
+          <p class="muted">İlk sürümde reklam, ödeme veya abonelik bulunmaz.</p>
+        </div>
+        <div class="card">
+          <h3>Veri toplama yok</h3>
+          <p class="muted">Quiz cevapları cihaz üzerinde işlenir; kişisel veri toplanmaz.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="inner">
+      <span>© 2026 Bu mu, O mu?</span>
+      <span><a href="privacy-policy/">Privacy Policy</a> · <a href="mailto:farukbayrak13@gmail.com">Contact</a></span>
+    </div>
+  </footer>
+</body>
+</html>
