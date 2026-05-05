@@ -1,27 +1,17 @@
+import 'package:flutter/material.dart';
+
 class QuizCategory {
+  final String id;
+  final String title;
+  final String description;
+  final String emoji;
+  final Color color;
+
   const QuizCategory({
     required this.id,
     required this.title,
-    this.description,
+    required this.description,
+    required this.emoji,
+    required this.color,
   });
-
-  final String id;
-  final String title;
-  final String? description;
-
-  Map<String, dynamic> toJson() {
-    return {
-      'id': id,
-      'title': title,
-      'description': description,
-    };
-  }
-
-  factory QuizCategory.fromJson(Map<String, dynamic> json) {
-    return QuizCategory(
-      id: json['id'] as String,
-      title: json['title'] as String,
-      description: json['description'] as String?,
-    );
-  }
 }
