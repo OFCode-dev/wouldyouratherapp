@@ -4,8 +4,8 @@ import '../models/quiz_category.dart';
 import '../models/quiz_option.dart';
 import '../models/quiz_question.dart';
 
-final quizCategories = <QuizCategory>[
-  QuizCategory(
+const quizCategories = <QuizCategory>[
+  const QuizCategory(
     id: 'yemek',
     title: 'Yemek & İçecek',
     description:
@@ -13,7 +13,7 @@ final quizCategories = <QuizCategory>[
     emoji: '🍕',
     color: Colors.orange,
   ),
-  QuizCategory(
+  const QuizCategory(
     id: 'seyahat',
     title: 'Seyahat Tarzı',
     description:
@@ -21,7 +21,7 @@ final quizCategories = <QuizCategory>[
     emoji: '✈️',
     color: Colors.blue,
   ),
-  QuizCategory(
+  const QuizCategory(
     id: 'sabah_gece',
     title: 'Sabah mı, Gece mi?',
     description:
@@ -29,7 +29,7 @@ final quizCategories = <QuizCategory>[
     emoji: '🌙',
     color: Colors.indigo,
   ),
-  QuizCategory(
+  const QuizCategory(
     id: 'sosyal',
     title: 'Sosyal Hayat',
     description:
@@ -37,7 +37,7 @@ final quizCategories = <QuizCategory>[
     emoji: '🎉',
     color: Colors.pink,
   ),
-  QuizCategory(
+  const QuizCategory(
     id: 'alisveris',
     title: 'Alışveriş & Para',
     description:
@@ -45,7 +45,7 @@ final quizCategories = <QuizCategory>[
     emoji: '🛍️',
     color: Colors.amber,
   ),
-  QuizCategory(
+  const QuizCategory(
     id: 'calisma',
     title: 'Çalışma Tarzı',
     description:
@@ -53,7 +53,7 @@ final quizCategories = <QuizCategory>[
     emoji: '💻',
     color: Colors.deepPurple,
   ),
-  QuizCategory(
+  const QuizCategory(
     id: 'teknoloji',
     title: 'Teknoloji & Sosyal Medya',
     description:
@@ -61,7 +61,7 @@ final quizCategories = <QuizCategory>[
     emoji: '📱',
     color: Colors.green,
   ),
-  QuizCategory(
+  const QuizCategory(
     id: 'yasam',
     title: 'Yaşam Alanı',
     description:
