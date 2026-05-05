@@ -1,22 +1,73 @@
+import 'package:flutter/material.dart';
+
 import '../models/quiz_category.dart';
 import '../models/quiz_option.dart';
 import '../models/quiz_question.dart';
 
-const quizSeedCategories = <QuizCategory>[
+final quizCategories = <QuizCategory>[
   QuizCategory(
-    id: 'daily',
-    title: 'Günlük Hayat',
-    description: 'Hızlı ve eğlenceli seçimler.',
+    id: 'yemek',
+    title: 'Yemek & İçecek',
+    description:
+        'Yemek ve içecek tercihleriniz kişiliğiniz hakkında neler söylüyor? Bu bölümde lezzetli seçimler yaparak, mutfak zevkiniz ve damak tadınız hakkında bilgi edineceğiz. Soğuk mu sıcak mı, tatlı mı tuzlu mu? Tercihleriniz sizi tanımlıyor.',
+    emoji: '🍕',
+    color: Colors.orange,
   ),
   QuizCategory(
-    id: 'social',
-    title: 'Sosyal Tarz',
-    description: 'Ortama nasıl enerji kattığını gösteren seçimler.',
+    id: 'seyahat',
+    title: 'Seyahat Tarzı',
+    description:
+        'Dünyayı keşfetme tarzınız benzersiz midir? Planlı mı yoksa spontane mi geziyorsunuz? Bu kategoride, seyahat deneyimleriniz ve macera ruhunuz hakkında derinlemesine bilgi alacağız. Gidebileceğiniz yerleri ve tercih ettiğiniz deneyimleri keşfedelim.',
+    emoji: '✈️',
+    color: Colors.blue,
   ),
   QuizCategory(
-    id: 'adventure',
-    title: 'Plan ve Macera',
-    description: 'Ritim, plan ve spontane kararlar.',
+    id: 'sabah_gece',
+    title: 'Sabah mı, Gece mi?',
+    description:
+        'Gün ışığında mı yoksa gece karanlığında mı daha canlı hissediyorsunuz? Erken saatlerde mi yoksa geç saatlerde mi enerjik oluyorsunuz? Bu bölüm, zaman algınız ve enerji ritiminizi keşfederek iki zıt güce sizin hangi tarafa ait olduğunuzu ortaya koyacak.',
+    emoji: '🌙',
+    color: Colors.indigo,
+  ),
+  QuizCategory(
+    id: 'sosyal',
+    title: 'Sosyal Hayat',
+    description:
+        'İnsanlarla ilişkileriniz nasıldır? Çevre dostu mı, seçici mi? Bu kategoride, sosyal kişiliğiniz ve insanlarla etkileşim biçiminiz ortaya çıkacak. İnsanları çekeceğiniz, yineleyen partileri mi yoksa sakin buluşmaları mı tercih edersiniz?',
+    emoji: '🎉',
+    color: Colors.pink,
+  ),
+  QuizCategory(
+    id: 'alisveris',
+    title: 'Alışveriş & Para',
+    description:
+        'Paranız ve alışveriş alışkanlıklarınız hakkında neler söylüyor? Planlı bütçe mi yoksa dürtüsel harcamalar mı? Bu bölümde, finansal kişiliğiniz ve tüketim davranışınız hakkında derinlemesine bakacağız. Tasarruf etmeyi seviyorum mu, yoksa harcamaktan hoşlanıyorum mu?',
+    emoji: '🛍️',
+    color: Colors.amber,
+  ),
+  QuizCategory(
+    id: 'calisma',
+    title: 'Çalışma Tarzı',
+    description:
+        'İş ortamında nasıl bir kişiliğiniz var? Takım oyuncusu musunuz, yoksa bağımsız çalışmayı tercih mi ediyorsunuz? Bu kategoride, profesyonel kimliğiniz, üretkenlik alışkanlıklarınız ve iş yönetimi tarzınız hakkında bilgi alacağız.',
+    emoji: '💻',
+    color: Colors.deepPurple,
+  ),
+  QuizCategory(
+    id: 'teknoloji',
+    title: 'Teknoloji & Sosyal Medya',
+    description:
+        'Dijital dünyada ne kadar yerleşik olmuşsunuz? Teknoloji savunucusu mısınız yoksa teknolojiye şüpheyle mi bakıyorsunuz? Bu bölümde, sosyal medya alışkanlıklarınız ve teknoloji kullanımı hakkında keşifler yapacağız. Bağlı mısınız, yoksa uzak mısınız?',
+    emoji: '📱',
+    color: Colors.green,
+  ),
+  QuizCategory(
+    id: 'yasam',
+    title: 'Yaşam Alanı',
+    description:
+        'Yaşamak istediğiniz ortam ve şehir hayatı tercihleriniz nelerdir? Şehrin kalabalığında mı yoksa sakin köyün sessizliğinde mi olmayı istersiniz? Bu kategoride, yaşam biçiminiz ve ideal yaşam ortamınız hakkında derinlemesine bilgi alacağız.',
+    emoji: '🏙️',
+    color: Colors.teal,
   ),
 ];
 
