@@ -19,14 +19,19 @@ const resultProfiles = <ResultProfile>[
         'Arkadaşların seninle yemek yerken her zaman yeni bir şeyler dener; çünkü menüyü en iyi sen '
         'incelersin. Baharatlı, egzotik ya da sıra dışı tatlar seni ürkütmez, aksine davet eder. '
         'Mutfak denemeleri yaparken tarife bağlı kalmak zorunda hissetmezsin; içgüdüne güvenir, '
-        'malzemeleri özgürce harmanlarsın. Yemek masası senin için hem bir öğrenme hem de paylaşma '
-        'alanıdır. Her lokma yeni bir hikâye, her yeni tat ise genişleyen bir evrendir.',
+        'malzemeleri özgürce harmanlarsın. Yeni bir malzeme gördüğünde hemen nasıl kullanabileceğini '
+        'düşünür, mevsimsel lezzetleri takip edersin. Yemek masası senin için hem bir öğrenme hem de '
+        'paylaşma alanıdır. Her lokma yeni bir hikâye, her yeni tat ise genişleyen bir evrendir. '
+        'Yemeğin arkasındaki kültüre, tarihe ve emek hikâyesine duyduğun merak seni sıradan bir '
+        'yemekçiden değil, gerçek bir gastronomik kaşife dönüştürür.',
     shareText:
         'Benim yemek tarzım: Foodie Kaşif! 🍽️ Menüdeki en ilginç yemeği seçer, '
         'bilmediğim mutfakları keşfetmekten büyük zevk alırım. Seyahatte ilk durağım '
         'yerel pazar, ilk sorum "buranın meşhur yemeği ne?" olur. Baharatlı mı, egzotik mi, '
-        'sıra dışı mı? Sorun değil, hepsini denerim! Yemek benim için sadece doyma değil, '
-        'dünyayı anlamanın en lezzetli yolu. Sen de yemek profilini öğrenmek ister misin?',
+        'sıra dışı mı? Sorun değil, hepsini denerim! Arkadaşlarımla yemek yerken genellikle '
+        'masanın en cesur siparişini ben veririm. Bir yemeğin arkasındaki kültürü, tarihi ve '
+        'hikâyeyi merak ederim. Yemek benim için sadece doyma değil, dünyayı anlamanın en '
+        'lezzetli yolu. Sen de yemek profilini öğrenmek ister misin?',
   ),
   ResultProfile(
     id: 'yemek_profile_2',
@@ -45,12 +50,16 @@ const resultProfiles = <ResultProfile>[
         'sevdiğin yerleri önerirken memnuniyetle konuşursun; "oraya gittim, harika" '
         'demek seni mutlu eder. Mevsiminde yenen sebze, taze pişirilmiş ev yemeği ya da '
         'yılların verdiği bir tarif; bunlar senin için sofranın en değerli köşeleridir. '
-        'Konfor gıdaları sadece mide doldurmuyor, ruhunu da besliyor.',
+        'Konfor gıdaları sadece mide doldurmuyor, ruhunu da besliyor. Yeni bir yerde '
+        'bile tanıdık tatların kokusunu aradığını fark edersin; çünkü yemek senin için '
+        'nostalji ve güven demek. Seçimlerinde tutarlısın ve bu tutarlılık seni mutlu kılıyor.',
     shareText:
         'Benim yemek tarzım: Konfor Sever! 🥘 Bildiğim ve sevdiğim lezzetlere sadık kalırım. '
         'Yeni tatlar ilginç olabilir ama gerçekten iyi bir şey yemek için deney yapmak zorunda '
         'değilim. Annemin tarifi, gençliğimden beri gittiğim mekan ya da her hafta tekrarladığım '
-        'kahvaltı beni tam manasıyla doyurur. Yemek benim için güvenli liman gibi. '
+        'kahvaltı beni tam manasıyla doyurur. Yeni bir şehirde bile tanıdık tatların peşine '
+        'düşerim; çünkü yemek benim için nostalji ve güvendir. Restoran seçerken güvenilir '
+        'önerilere dikkat ederim. Yemek benim için güvenli liman gibi. '
         'Sen de yemek profilini keşfetmek ister misin?',
   ),
   ResultProfile(
@@ -70,12 +79,17 @@ const resultProfiles = <ResultProfile>[
         'çekmez; bildiğin, kontrol ettiğin, sıfırdan yaptığın şeyleri tercih edersin. '
         'Tarif takip etmek kadar kendi yorumunu katmak da önemlidir; bir yemeği kendi '
         'damak zevkine göre uyarlamaktan çekinmezsin. Mutfak kokar, el kirlenir ama '
-        'masaya serilen tabaklar seni başka türlü ödüllendiren bir şeydir.',
+        'masaya serilen tabaklar seni başka türlü ödüllendiren bir şeydir. Yeni teknikler '
+        'öğrenmek, farklı mutfakları evde denemek ve sevdiklerine özel bir şeyler yapmak '
+        'sana derin bir tatmin verir. Mutfak senin hem terapi alanın hem de sevgi dilidir.',
     shareText:
         'Benim yemek tarzım: Ev Aşçısı! 👨‍🍳 En iyi yemek kendi elimden çıkar. '
         'Pazardan taze malzeme seçmek, sıfırdan bir yemek pişirmek ve sevdiklerimi '
         'kendi yaptıklarımla ağırlamak beni çok mutlu ediyor. Hazır gıda pek benim '
-        'tarihimde yok; mutfakta vakit geçirmek bir yük değil, zevk. '
+        'tarihimde yok; mutfakta vakit geçirmek bir yük değil, zevk. Yeni teknikler '
+        'öğrenmekten keyif alırım, tarifleri kendi zevkime göre uyarlarım. '
+        'Birisi için özel bir yemek pişirmek benim için sevgi göstermenin en güzel '
+        'yollarından biri. Mutfak benim terapi alanım. '
         'Sen de yemek profilini merak ediyor musun?',
   ),
   ResultProfile(
@@ -95,13 +109,18 @@ const resultProfiles = <ResultProfile>[
         'gösteriş değil, o güzel anı belgelemek istemendir. Grup yemekleri organize '
         'etmek sana düşer çünkü en iyi yeri sen araştırırsın. '
         'Yemeği bir ritüel ve buluşma noktası olarak görürsün. '
-        'Lezzetli bir menüden fazlası lazım; doğru yer, doğru insanlar, doğru an.',
+        'Lezzetli bir menüden fazlası lazım; doğru yer, doğru insanlar, doğru an. '
+        'Şeflerin yorumlarını, özel tasting menülerini ve yaratıcı sunum biçimlerini '
+        'takdir edersin. Bir yemeği çevrenizdekilerle paylaşmak, anı kalıcı kılmanın '
+        'en güzel yolu olduğuna inanırsın.',
     shareText:
         'Benim yemek tarzım: Sosyal Gurme! 🥂 Yemek benim için bir sosyal ritüel. '
         'Ambiyansı güzel, sohbeti uzun, paylaşılan çeşitlerle dolu bir sofra harika. '
         'Yeni açılan mekanları keşfeder, arkadaş yemeklerini organize eder, '
-        'o anı fotoğraflara ölümsüzleştiririm. Lezzetli yemek şart ama doğru '
-        'insanlarla paylaşılmadan eksik kalır. Sen de profilini öğren!',
+        'o anı fotoğraflara ölümsüzleştiririm. Özel tasting menüleri ve yaratıcı '
+        'sunumlar beni heyecanlandırıyor. Bir yemeği sevdiklerimle paylaşmak, '
+        'lezzetini ikiye katlar. Lezzetli yemek şart ama doğru insanlarla '
+        'paylaşılmadan eksik kalır. Sen de profilini öğren!',
   ),
 
   // ─────────────────────────────────────────────
@@ -124,12 +143,17 @@ const resultProfiles = <ResultProfile>[
         've beklenmedik dönüşler seyahatin en değerli parçaları oluyor. '
         'Bütçeni de kendin yönetirsin; lüks gerekmiyor, deneyim gerekiyor. '
         'Bir yere gittiğinde "gerçekten orada olduğunu" hisseden türden seyyahsın; '
-        'kalabalık insan selinin içinde kaybolmak istemezsin.',
+        'kalabalık insan selinin içinde kaybolmak istemezsin. Gittiğin yerin dilinden '
+        'birkaç kelime öğrenmek, yerel birine tavsiye sormak ve o yeri gerçek haliyle '
+        'görmek senin için önemli. Seyahat senin için en büyük özgürlük ifadesidir.',
     shareText:
         'Benim seyahat tarzım: Özgür Gezgin! 🎒 Sırt çantamı alır, yönümü belirler '
         've akışa bırakırım kendimi. Turist alanları değil, yerel mahalleler; saatli '
         'programlar değil, kendiliğinden gelişen anlar. Seyahatte en iyi şeyler '
-        'plansız olur. Bütçeyle idare eder, deneyimi zenginliğe tercih ederim. '
+        'plansız olur. Yolda tanıştığım insanlar, beklenmedik dönüşler ve keşfettiğim '
+        'gizli noktalar asıl hazineyi oluşturuyor. Gittiğim yerin dilinden birkaç '
+        'kelime öğrenir, yerel tavsiyeye kulak veririm. Bütçeyle idare eder, '
+        'deneyimi zenginliğe tercih ederim. '
         'Sen de seyahat profilini merak ediyor musun?',
   ),
   ResultProfile(
@@ -150,13 +174,17 @@ const resultProfiles = <ResultProfile>[
         'Seyahat organizasyonunu genellikle önceden yapar, sürprizleri minimize edersin; '
         'çünkü sen o tatili hak ettin ve en iyi şekilde geçirmek istiyorsun. '
         'İncelemeler okur, önerileri araştırır ve rezervasyonlarını erken yaparsın. '
-        'Lüks bir tatil sonunda gerçekten dinlenmiş hissediyorsun.',
+        'Spa, özel servis ya da şık bir restoran deneyimi tatilinin ayrılmaz parçaları. '
+        'Seyahatin yorgun döneceğin bir maraton değil, gerçekten yenileneceğin bir deneyim '
+        'olması gerektiğine inanırsın. Lüks bir tatil sonunda gerçekten dinlenmiş hissediyorsun.',
     shareText:
         'Benim seyahat tarzım: Lüks Turist! 🏨 Seyahat ederken konforun tadını '
         'çıkarmak isterim. İyi bir otel, kaliteli hizmet ve önceden planlanmış '
         'bir program beni mutlu eder. Hak ettiğim tatili en iyi şekilde geçirmek '
-        'için araştırır ve planlarım. Seyahat hem dinlenmek hem de güzelce '
-        'deneyimlemek demek benim için. Sen de profilini keşfet!',
+        'için araştırır ve planlarım. Rezervasyonlarımı erken yapar, yorumları '
+        'özenle okurum. Spa, şık restoran ve özel deneyimler tatilimin vazgeçilmezleri. '
+        'Seyahat hem dinlenmek hem de güzelce deneyimlemek demek benim için. '
+        'Sen de profilini keşfet!',
   ),
   ResultProfile(
     id: 'seyahat_profile_3',
@@ -175,12 +203,17 @@ const resultProfiles = <ResultProfile>[
         'Turistik alışveriş merkezleri seni çekmez; küçük sanat galerileri, '
         'yerel zanaatkârların atölyeleri veya sokak sanatçıları çok daha ilginç gelir. '
         'Fotoğraflarının büyük çoğunluğu mimari detaylar, sokak yazıları ya da '
-        'bir anın ruhunu yansıtan karelerdir. Her seyahatten daha zengin dönersin.',
+        'bir anın ruhunu yansıtan karelerdir. Her seyahatten daha zengin dönersin. '
+        'Bir eserin ya da anıtın üretildiği dönemin koşullarını merak eder, '
+        'gezeceğin yeri anlamak için kitaplar ya da belgeseller izlersin. '
+        'Kültür, tarih ve insanlık mirası senin seyahat motivasyonunun merkezindedir.',
     shareText:
         'Benim seyahat tarzım: Kültür Avcısı! 🏛️ Her seyahat benim için bir öğrenme '
         'macerası. Müzeler, tarihi alanlar ve yerel kültür beni en çok heyecanlandıran '
         'şeyler. Gitmeden önce o yerin tarihini araştırır, dilinden birkaç kelime öğrenirim. '
+        'Bir anıtın ya da eserin hikâyesini merak eder, arka planını keşfetmekten zevk alırım. '
         'Turistik alışveriş yerine yerel atölyeler ve sanat galerileri benim için asıl durak. '
+        'Her seyahate girerken meraklı, çıkarken daha bilgili olurum. '
         'Sen de seyahat profilini öğrenmek ister misin?',
   ),
   ResultProfile(
@@ -200,13 +233,19 @@ const resultProfiles = <ResultProfile>[
         'ama çok daha yavaş ve keyifli bir şekilde. '
         'Planlamayı minimal tutarsın; varış noktasına karar ver, gerisini akışa bırak. '
         'Gerçek tatil sana göre enerjini toplamak ve günlük hayatın koşturmacasından '
-        'uzaklaşmaktır. Dönüşte dinlenmiş ve tazelenmiş hissediyorsun.',
+        'uzaklaşmaktır. Yavaş sabah kahveleri, öğleden sonra şekerlemeleri ve gün batımını '
+        'izlemek senin tatil programının en değerli kalemleri. Gürültüden ve yoğunluktan '
+        'uzakta, sadece kendinle baş başa vakit geçirmek seni en çok iyileştiren şeydir. '
+        'Dönüşte dinlenmiş ve tazelenmiş hissediyorsun.',
     shareText:
         'Benim seyahat tarzım: Rahat Tatilci! 🏖️ Tatil benim için gerçek bir '
         'dinlenme demek. Dolu program değil, sakin bir köşe, bir kitap ve yavaş '
-        'geçen saatler... Planlama minimal, akış maksimum. Müze maratonu yerine '
-        'havuz kenarında uzanmak bana daha iyi geliyor. Tatilden döndüğümde '
-        'gerçekten dinlenmiş hissederim. Sen de profilini öğren!',
+        'geçen saatler... Planlama minimal, akış maksimum. Yavaş sabah kahvesi, '
+        'öğleden sonra şekerleme, gün batımı izlemek; bunlar benim tatil programım. '
+        'Müze maratonu yerine havuz kenarında uzanmak bana daha iyi geliyor. '
+        'Günlük koşturmacadan uzaklaşmak, sadece kendimle vakit geçirmek en büyük '
+        'tatil lüksü. Tatilden döndüğümde gerçekten dinlenmiş hissederim. '
+        'Sen de profilini öğren!',
   ),
 
   // ─────────────────────────────────────────────
@@ -229,13 +268,19 @@ const resultProfiles = <ResultProfile>[
         'başlarsın. Gece geç saatlere kadar uyanık kalmak seni tüketir; '
         'bir süre sonra verimlilik kaybolur, odaklanma güçleşir. '
         'Sosyal ortamlarda gece geç kalmak yerine erken ayrılmayı tercih edebilirsin. '
+        'En önemli kararlarını ve en zor işlerini sabahın erken saatlerinde alırsın çünkü '
+        'zihnin en keskin o zaman çalışır. Sabah sessizliği sana düşünme ve planlama '
+        'fırsatı verir; bu saatler sana ait, tamamen kesintisizdir. '
         'Ama sabahın ilk ışıklarında herkesten önce o gün için hazır olmak seni '
         'rakipsiz kılar.',
     shareText:
         'Benim sabah/gece tarzım: Erken Kuş! 🌅 Alarm çalmadan uyanır, güne erken '
         'başlarım. Sabah rutinlerim güçlüdür; egzersiz, kahve, planlama hepsi gün '
-        'ağarmadan biter. Sessiz sabah saatleri benim en verimli zamanım. Gece geç '
-        'saatlere kadar dayanmak pek benim işim değil. Sabahın huzuru başka bir şey! '
+        'ağarmadan biter. Sessiz sabah saatleri benim en verimli zamanım; en zor '
+        'kararlarımı ve önemli işlerimi o saatlerde alırım. Gece geç saatlere kadar '
+        'dayanmak pek benim işim değil; enerji akşama doğru azalıyor. '
+        'Sabah sessizliğinde kendimle baş başa kalmak, günü şekillendirmek için '
+        'en güzel an. Sabahın huzuru başka bir şey! '
         'Sen de profilini keşfet!',
   ),
   ResultProfile(
@@ -256,12 +301,16 @@ const resultProfiles = <ResultProfile>[
         'performans gösterirsin. Gece sahiplenilmiş bir özgürlük alanı gibi; '
         'hiç kimse senden bir şey beklemiyor, sadece kendinle başbaşasın. '
         'Gece geç saatlerde yaşadığın netlik ve odak, sabah insanlarının '
-        'anlayamayacağı türden bir enerjidir.',
+        'anlayamayacağı türden bir enerjidir. Düşüncelerinin derinleştiği, '
+        'projelerinin canlandığı ve en özgün fikirlerinin ortaya çıktığı zaman gece. '
+        'Sessizlik ve karanlık senin için kısıtlayıcı değil, tam anlamıyla özgürleştiricidir.',
     shareText:
         'Benim sabah/gece tarzım: Gece Yarısı Ruhu! 🦉 Yaratıcılığım gece açılır. '
         'Herkes uyuduğunda en verimli halimde olurum; yazarım, düşünürüm, '
         'üretirim. Sabah erken kalkmak benim için zorlu; güne yavaş başlarım '
-        'ama geceye kadar tazeliğimi koruyabilirim. Gece bana ait! '
+        'ama geceye kadar tazeliğimi koruyabilirim. En özgün fikirlerim gece geç '
+        'saatlerde gelir; projelerim gece canlanır, düşüncelerim derinleşir. '
+        'Karanlık ve sessizlik benim için özgürleştirici. Gece bana ait! '
         'Sen de profilini öğrenmek ister misin?',
   ),
   ResultProfile(
@@ -281,12 +330,17 @@ const resultProfiles = <ResultProfile>[
         'Hafta içi erken kalkarsın, hafta sonu biraz daha uzanırsın; bu ikisi '
         'arasında denge kurabilirsin. Katı rutinlere bağlı olmak zorunda hissetmezsin '
         'ama tamamen düzensiz olmak da seni rahatsız eder. '
-        'Orta bir yol ararsın ve çoğunlukla da bulursun.',
+        'Orta bir yol ararsın ve çoğunlukla da bulursun. Sabahları verimli çalışma '
+        'fırsatı bulursan bunu değerlendirirsin, akşamları sosyal bir aktivite varsa '
+        'buna da kolayca uyum sağlarsın. Bu esneklik seni hem mesleki hem de sosyal '
+        'hayatta avantajlı konuma getiriyor.',
     shareText:
         'Benim sabah/gece tarzım: Esnek Ruh! 🌓 Sabah da gece de verimli '
         'olabiliyorum; biyolojik saatim esnek. Erken kalkmak gerekirse kalkarım, '
         'gece geç çalışmak gerekirse o da olur. Değişen koşullara hızlı uyum '
-        'sağlarım. Rutin güzel ama zorunlu değil. Esnek olmak benim süper gücüm! '
+        'sağlarım. Hafta içi erken, hafta sonu biraz daha geç; bu dengeyi '
+        'kolayca kurabiliyorum. Sabah fırsatını değerlendiririm, geceyi de boşa '
+        'harcamam. Rutin güzel ama zorunlu değil. Esnek olmak benim süper gücüm! '
         'Sen de profilini keşfet!',
   ),
   ResultProfile(
@@ -306,13 +360,18 @@ const resultProfiles = <ResultProfile>[
         'uykuya hazırlar. Sabahları da aynı şekilde düzenlisin; uyandığında '
         'yapacağın şeyler önceden bellidir ve bu öngörülebilirlik seni güvende hissettirir. '
         'Hafta sonu bile çok geç saate kadar uyanık kalmak ya da çok uzun uyumak '
-        'seni rahatsız eder. Biyolojik saatin mükemmel kalibre edilmiş.',
+        'seni rahatsız eder. Seyahat ederken ya da farklı ortamlarda bile uyku '
+        'rutinini korumaya çalışırsın; bu senin performansını ve iyi hissini doğrudan '
+        'etkileyen en temel alışkanlığın. Biyolojik saatin mükemmel kalibre edilmiş; '
+        'bunu korumak senin için bir sorumluluk değil, bir tercih.',
     shareText:
         'Benim sabah/gece tarzım: Rutin Sever! ⏰ Uyku düzenim benim için önemli. '
         'Her gün aynı saatte yatar, aynı saatte kalkarım. Bu rutin bozulduğunda '
         'tüm gün etkileniyorum. Yatmadan önceki ritüellerim var, sabah rutinlerim '
-        'de sabit. Öngörülebilir bir ritim beni huzurlu ve verimli tutuyor. '
-        'Sen de profilini öğrenmek ister misin?',
+        'de sabit. Seyahatte bile uyku düzenimi korumaya çalışırım; bu benim '
+        'performansımı doğrudan etkiliyor. Öngörülebilir bir ritim beni huzurlu '
+        've verimli tutuyor. Geç yatmak ya da geç kalkmak benim için lüks değil, '
+        'küçük bir kaos. Sen de profilini öğrenmek ister misin?',
   ),
 
   // ─────────────────────────────────────────────
@@ -336,12 +395,17 @@ const resultProfiles = <ResultProfile>[
         'günlük hayatının parçasıdır. Etkinlik organize etmek, grup oluşturmak '
         've insanları bir araya getirmek sana doğal gelir. '
         'Sessizlik ve ıssızlık belirli bir süre sonra seni huzursuz eder. '
-        'Enerji kaynağın insanlar; onlarla olan her etkileşim seni yeniler.',
+        'Enerji kaynağın insanlar; onlarla olan her etkileşim seni yeniler. '
+        'Grup dinamiklerini hızlı okursun, ortamdaki havayı yumuşatmak ya da '
+        'neşelendirmek için sezgisel davranırsın. İnsanların bir araya gelmesini '
+        'sağlayan, atmosfer yaratan ve herkese kendisini özel hissettiren kişi sensin.',
     shareText:
         'Benim sosyal tarzım: Sosyal Kelebek! 🦋 İnsan enerjisi beni besler. '
         'Kalabalık ortamlar, yeni tanışmalar ve etkinlikler benim için en canlı '
         'olduğum anlardır. Topluluğa hızlı ısınır, insanları bir araya getirir, '
-        'sosyal ağları büyütürüm. Yalnız kalmak güzel ama çok sürmemeli! '
+        'sosyal ağları büyütürüm. Grup dinamiklerini hızlı okur, ortamı neşelendirmeyi '
+        'severim. İnsanları tanımak, bağlantı kurmak benim için gerçek bir enerji '
+        'kaynağı. Yalnız kalmak güzel ama çok sürmemeli; beni asıl besleyen insanlar. '
         'Sen de sosyal profilini keşfet!',
   ),
   ResultProfile(
@@ -362,12 +426,17 @@ const resultProfiles = <ResultProfile>[
         'İçe dönük değilsin; sadece niteliği niceliğe tercih ediyorsun. '
         'Biriyle gerçekten tanışmak için zaman gerektiğini, yüzeysel dostlukların '
         'ise gerçek bir bağlantı olmadığını biliyorsun. '
-        'Çevren küçük olabilir ama her ilişki gerçek ve değerlidir.',
+        'Çevren küçük olabilir ama her ilişki gerçek ve değerlidir. '
+        'Bir insanı anlamaya, onun bakış açısını keşfetmeye ve gerçek bir bağ '
+        'kurmaya değer verirsin. Sosyal enerjini dikkatli harcarsın çünkü '
+        'her ilişkiye tam anlamıyla kendini verirsin.',
     shareText:
         'Benim sosyal tarzım: Seçici Sosyal! 🌿 Az ama gerçek insanlarla '
         'derin bağlar kurmayı tercih ederim. Büyük kalabalıklar yerine küçük '
         'gruplar ve uzun sohbetler benim için çok daha değerli. Arkadaşlıklarımı '
-        'özenle seçerim; nitelik nicelikten her zaman önce gelir. '
+        'özenle seçerim; bir insanı gerçekten tanımak için zaman harcarım. '
+        'Yüzeysel etkileşimler beni doldurmaz; asıl tatmini derin ve anlamlı '
+        'bağlantılarda bulurum. Nitelik nicelikten her zaman önce gelir. '
         'Sen de profilini öğrenmek ister misin?',
   ),
   ResultProfile(
@@ -389,12 +458,17 @@ const resultProfiles = <ResultProfile>[
         'Sosyal medyada aktif olmak zorunda hissetmezsin; '
         'gerçek yüz yüze bağlantılar önceliğin. '
         'Yalnız kalmayı da seversin; yalnızlık ile yalıtılmışlık arasındaki '
-        'farkı iyi bilirsin ve bu seni dengeli kılar.',
+        'farkı iyi bilirsin ve bu seni dengeli kılar. '
+        'Evi güzel ve sıcak tutmak, konuklarını rahat ettirmek ve kendi alanında '
+        'derin sohbetler yapmak sana en kaliteli sosyal deneyimi sunar. '
+        'İnsanları evinde ağırlamak senin için bir sorumluluk değil, gerçek bir zevktir.',
     shareText:
         'Benim sosyal tarzım: Ev İnsanı! 🏠 En iyi sosyal ortam benim için ev. '
         'İnsanları eve davet etmeyi ya da sevdiklerimin evinde olmayı severim. '
         'Kendi ortamımda çok daha rahat ve özgür hissederim. Film geceleri, '
-        'küçük yemek davetleri benim ideal sosyalleşmem. '
+        'küçük yemek davetleri ve sıcak sohbetler benim ideal sosyalleşmem. '
+        'Konuklarımı rahat ettirmekten, evimi sıcak tutmaktan gerçek zevk alırım. '
+        'Yalnız kalmak da beni rahatsız etmez; kendi alanımda huzur buluyorum. '
         'Sen de sosyal profilini keşfet!',
   ),
   ResultProfile(
@@ -414,11 +488,16 @@ const resultProfiles = <ResultProfile>[
         'Sosyal baskıya kolay boyun eğmezsin; "bu akşam evde kalmak istiyorum" '
         'diyebilirsin ve bunu kabul ettirirsin. '
         'İçe ve dışa dönüklük arasında bir yerde duruyorsun; '
-        'bu seni hem geniş hem de derin ilişkilere açık kılıyor.',
+        'bu seni hem geniş hem de derin ilişkilere açık kılıyor. '
+        'Farklı insanlarla farklı seviyelerde bağlantı kurabilirsin; '
+        'hem kalabalık arkadaş grubuyla eğlenirsin hem de tek bir yakın dostla '
+        'saatlerce konuşabilirsin. Bu esneklik seni sosyal açıdan çok yönlü kılıyor.',
     shareText:
         'Benim sosyal tarzım: Dengeleyici! ⚖️ Hem kalabalıkta eğlenebilir '
-        'hem de yalnız kalmanın tadını çıkarabiliyorum. İnsanlarla vakit sonrasında '
-        'kendimi yeniden şarj etme ihtiyacı duyarım. Bu dengeyi iyi kuruyorum. '
+        'hem de yalnız kalmanın tadını çıkarabiliyorum. İnsanlarla vakit geçirdikten '
+        'sonra kendimi yeniden şarj etme ihtiyacı duyarım. Bu dengeyi iyi kuruyorum. '
+        'Büyük grup da iyi, yakın dost sohbeti de; ikisine de uyum sağlarım. '
+        '"Bu akşam evde kalmak istiyorum" diyebilirim ve bunu rahatça kabul ettiririm. '
         'Bana göre en iyi sosyal hayat ne çok ne az; tam kararında. '
         'Sen de profilini öğrenmek ister misin?',
   ),
@@ -444,13 +523,18 @@ const resultProfiles = <ResultProfile>[
         'alırken doğru hissettirmişti. '
         'Arkadaşlarının alışverişlerine de eşlik edersin; onların alışveriş '
         'heyecanı seni de etkiler. Ani kararlar verirsin ama genellikle '
-        'pişman da olmazsın; o anlık sevinç gerçekten güzeldir.',
+        'pişman da olmazsın; o anlık sevinç gerçekten güzeldir. '
+        'Yeni trendleri takip eder, özel koleksiyonlara ilgi duyar ve '
+        'mağazada gezinmenin kendisinden bile keyif alırsın. '
+        'Alışveriş seni hem eğlendirir hem de anlık bir tatmin duygusu yaratır.',
     shareText:
         'Benim alışveriş tarzım: Anlık Alıcı! ⚡ Beğendiğimi alırım, '
         'çok düşünmem. O anlık heyecan ve seçmenin verdiği tatmin benim için '
         'önemli. İndirim görürsem fırlamam için ihtiyaç listesi gerekmez. '
-        'Alışveriş benim için bir deneyim ve zevk. '
-        'Sen de alışveriş profilini keşfet!',
+        'Mağazada gezinmekten keyif alırım, yeni trendleri takip ederim. '
+        'Arkadaşların alışveriş heyecanı beni de etkiler; birlikte alışveriş '
+        'yapmak benim için sosyal bir aktivite. Alışveriş benim için bir '
+        'deneyim ve zevk. Sen de alışveriş profilini keşfet!',
   ),
   ResultProfile(
     id: 'alisveris_profile_2',
@@ -471,12 +555,17 @@ const resultProfiles = <ResultProfile>[
         'yerine onu tercih edersin. '
         'Alışverişten sonra bazen pişmanlık hissedenleri anlayamazsın; '
         'çünkü sen zaten çok düşündükten sonra alıyorsun. '
-        'Sahip olduğun şeylerin her biri bir nedeni vardır; biri dışarıda olsa bile içeriden düzeni hissedilir.',
+        'Sahip olduğun şeylerin her biri bir nedeni vardır; biri dışarıda olsa bile içeriden düzeni hissedilir. '
+        'Çevreye saygılı üretim, adil ticaret ve sürdürülebilirlik gibi kavramlar '
+        'satın alma kararlarını etkiler. Daha az ama daha anlamlı sahip olmak, '
+        'özgürlük ve berraklık hissi verir sana.',
     shareText:
         'Benim alışveriş tarzım: Minimalist! 🌱 Az ama öz. Bir şey almadan önce '
         'gerçekten ihtiyacım var mı diye sorarım. Dolabım sade, hayatım düzenli. '
         'Hızlı tüketim değil, kaliteli ve uzun ömürlü ürünler tercihim. '
+        'Sürdürülebilir üretim ve çevreye saygı da satın alma kararlarımı etkiliyor. '
         'Alışveriş listesinden sapmam; gereksiz eşya beni bunaltır. '
+        'Daha az sahip olmak benim için özgürlük ve berraklık demek. '
         'Sen de profilini öğrenmek ister misin?',
   ),
   ResultProfile(
@@ -498,12 +587,17 @@ const resultProfiles = <ResultProfile>[
         'Alışverişten önce araştırırsın: piyasa fiyatları, özgünlük, '
         'kökeni ya da kalitesi seni ilgilendirir. '
         'Koleksiyonun düzenli ve özenle sergilenmişdir; her parçanın yeri bellidir. '
-        'Bu bir tutku ve aynı zamanda bir kimlik.',
+        'Bu bir tutku ve aynı zamanda bir kimlik. '
+        'İkinci el mağazalar, antika pazarları ve özel koleksiyoner grupları '
+        'senin için birer hazine alanı. Bir parçanın nadir ya da özgün olması, '
+        'sıradan bir ürünü satın almaktan çok daha tatmin edicidir.',
     shareText:
         'Benim alışveriş tarzım: Koleksiyoner! 🎨 Benim için alışveriş bir koleksiyonu '
         'büyütmek demek. Her parçanın bir hikâyesi var; neden seçtiğimi, nereden '
-        'aldığımı bilirim. Araştırır, özenle seçerim. Koleksiyonum hem bir tutku '
-        'hem de kim olduğumun yansıması. '
+        'aldığımı bilirim. Araştırır, özenle seçerim. İkinci el pazarlar, antika '
+        'dükkânlar ve özel koleksiyoner grupları benim için birer hazine alanı. '
+        'Nadir ya da özgün bir parça bulmak, sıradan alışverişten çok daha tatmin edici. '
+        'Koleksiyonum hem bir tutku hem de kim olduğumun yansıması. '
         'Sen de alışveriş profilini keşfet!',
   ),
   ResultProfile(
@@ -524,12 +618,17 @@ const resultProfiles = <ResultProfile>[
         'Bazen en ucuzu değil, en mantıklısını alırsın. '
         'Alışveriş listesi tutarsın ve genellikle ona uyarsın. '
         'Ani alımlar yapmak seni rahat hissettirmez; '
-        'ama planladığın bir şeyi uygun fiyata aldığında büyük bir tatmin duyarsın.',
+        'ama planladığın bir şeyi uygun fiyata aldığında büyük bir tatmin duyarsın. '
+        'Karşılaştırma siteleri, kullanıcı yorumları ve ürün analizleri senin '
+        'vazgeçilmez araçların. Bir ürünü araştırmak ve en iyi fırsatı bulmak '
+        'senin için alışverişin en zevkli kısmıdır.',
     shareText:
         'Benim alışveriş tarzım: Stratejik Alıcı! 📊 Alışveriş benim için '
         'bir strateji. Fiyat karşılaştırırım, indirimleri beklerim, araştırırım. '
         'Bütçemi belirler, listeye sadık kalırım. En ucuzu değil en mantıklısını '
-        'almak benim için asıl zafer. Ani harcamalar pek benim işim değil. '
+        'almak benim için asıl zafer. Karşılaştırma siteleri ve kullanıcı yorumları '
+        'benim vazgeçilmezlerim. Planladığım bir ürünü uygun fiyata bulmak '
+        'büyük tatmin. Ani harcamalar pek benim işim değil. '
         'Sen de profilini öğrenmek ister misin?',
   ),
 
@@ -554,12 +653,18 @@ const resultProfiles = <ResultProfile>[
         'Uzun ve kesintisiz çalışma blokları için ortam hazırlamak '
         'senin için bir ritüele dönüşmüştür. '
         'Ürettiğin işin kalitesi niceliğinden önemlidir; '
-        'bir şeyi gerçekten iyi yapmak için vakit harcanması gerektiğine inanırsın.',
+        'bir şeyi gerçekten iyi yapmak için vakit harcanması gerektiğine inanırsın. '
+        'Pomodoro, derin çalışma blokları ya da özel bir çalışma ortamı gibi '
+        'tekniklere yatırım yaparsın. Zihni hazırlama ritüellerin var; '
+        'müzik, ortam düzenleme ya da belirli içecekler akış halini tetikler. '
+        'En iyi işlerin hep o derin odak anlarında ortaya çıkar.',
     shareText:
         'Benim çalışma tarzım: Deep Focus! 🎯 Çalışırken gerçekten dalmak isterim. '
         'Telefon kapalı, bildirim yok; tamamen akış halinde çalışmak benim en '
         'verimli modum. Kesintiler ve çoklu görev performansımı düşürür. '
-        'Uzun ve derin çalışma blokları için ortamı hazırlarım. '
+        'Uzun ve derin çalışma blokları için ortamı özenle hazırlarım; '
+        'müzik, sessizlik, doğru ortam benim akış ritüellerimin parçası. '
+        'En iyi işlerim hep o derin odak anlarında çıkıyor. '
         'Sen de çalışma profilini keşfet!',
   ),
   ResultProfile(
@@ -581,13 +686,19 @@ const resultProfiles = <ResultProfile>[
         'Mükemmel koşulları beklemek yerine hemen başlarsın; '
         'süreç içinde şekillenir, düzenlenir. '
         'Sonuç olarak ortaya çıkan iş özgündür ve içinde '
-        'o yaratıcı enerjini taşır.',
+        'o yaratıcı enerjini taşır. '
+        'Farklı fikirler arasında bağlantılar kurma becerine güvenirsin; '
+        'zihinde paralel süreçler yürütmek seni yormuyor, aksine heyecanlandırıyor. '
+        'Yaratıcılık senin en büyük iş avantajın; ve bu avantaj kaotik ortamda '
+        'en iyi şekilde çiçekleniyor.',
     shareText:
         'Benim çalışma tarzım: Yaratıcı Kaos! 🌀 Masam kaotik görünebilir '
         'ama orada harika işler üretirim. Katı programlar değil, esnek akış; '
         'sıkı takvimler değil, anlık ilham. En iyi işlerim beklenmedik '
-        'anda çıkar. Kaosun içinde kendi düzenim var. '
-        'Sen de profilini öğrenmek ister misin?',
+        'anda çıkar. Farklı fikirler arasında bağlantılar kurmayı, paralel '
+        'projeler yürütmeyi seviyorum. Mükemmel koşulları beklemeden hemen '
+        'başlarım; süreç içinde şekillenir her şey. '
+        'Kaosun içinde kendi düzenim var. Sen de profilini öğrenmek ister misin?',
   ),
   ResultProfile(
     id: 'calisma_profile_3',
@@ -607,12 +718,18 @@ const resultProfiles = <ResultProfile>[
         'Tamamlanan görevin üstüne bir tik çizmek küçük ama tatmin edici bir '
         'ritüele dönüşmüştür. '
         'Proje yönetimi araçları, not uygulamaları ya da fiziksel ajandalar; '
-        'bunlara yatırım yaparsın. Bir sistemin içinde çok daha verimli olursun.',
+        'bunlara yatırım yaparsın. Bir sistemin içinde çok daha verimli olursun. '
+        'Uzun vadeli hedeflerini kısa vadeli görevlere böler, ilerlemeyi takip eder '
+        've her adımı belgelersin. Beklenmedik değişiklikler planı bozduğunda '
+        'hızlıca yeniden düzenler ve ilerlersin; esneklikle sistemin bir arada '
+        'çalışabilmesi senin güçlü yanın.',
     shareText:
         'Benim çalışma tarzım: Planlı Makine! 📋 Planlamadan başlamam. '
         'Görev listesi, takvim, öncelik sıralaması; bunlar benim altyapım. '
         'Haftanın başında neyin yapılacağını belirlemek beni güvenli hissettirir. '
-        'Tamamlanan görevi işaretlemek küçük ama tatmin edici. '
+        'Tamamlanan görevi işaretlemek küçük ama tatmin edici bir ritüel. '
+        'Uzun vadeli hedefleri kısa adımlara böler, her adımı takip ederim. '
+        'Sistematik yaklaşım beni verimli ve sakin tutuyor. '
         'Sen de çalışma profilini keşfet!',
   ),
   ResultProfile(
@@ -634,12 +751,17 @@ const resultProfiles = <ResultProfile>[
         'Öncelikler değiştiğinde hızlıca pivot yapabilir, '
         'yeniden odaklanabilirsin. '
         'Sonuç odaklısın; görev tamamlandığında tatmin duyar, '
-        'nasıl tamamlandığından çok tamamlanıp tamamlanmadığını önemsersin.',
+        'nasıl tamamlandığından çok tamamlanıp tamamlanmadığını önemsersin. '
+        'Farklı çalışma ortamlarına ve ekip dinamiklerine kolayca uyum sağlarsın. '
+        'Belirsiz koşullarda bile üretkenliğini koruması, seni değişken ortamlarda '
+        'en güvenilir çalışan yapan özelliğin.',
     shareText:
         'Benim çalışma tarzım: Esnek Üretici! 🔄 Çalışma saati değil, '
         'görev tamamlamak önemli benim için. Sabah mı, akşam mı, kafe mi, '
         'ev mi; fark etmez. Koşullara hızla uyum sağlarım. Katı programlar '
         'değil, esnek bir çerçeve içinde özgür hareket ederim. '
+        'Öncelikler değiştiğinde hızlıca pivot yapar, odağımı koruyabilirim. '
+        'Sonuç odaklıyım; tamamlandı mı, o önemli. '
         'Sen de profilini öğrenmek ister misin?',
   ),
 
@@ -664,12 +786,17 @@ const resultProfiles = <ResultProfile>[
         'tanıştıran kişi çoğunlukla sensin. '
         'Yeni bir araç iş akışını iyileştiriyorsa geçiş yapmak için tereddüt etmezsin. '
         'Teknolojiyi araç olarak değil, tutku olarak görürsün; '
-        've bu tutkun seni daima güncel, meraklı ve ilerici kılıyor.',
+        've bu tutkun seni daima güncel, meraklı ve ilerici kılıyor. '
+        'Yapay zeka, yeni cihazlar, platform değişiklikleri; bunları gündelik sohbetin '
+        'bir parçası yaparsın. Teknoloji trendlerini merakla takip etmek ve '
+        'yeniliğin ön saflarında olmak senin kimliğinin bir parçasıdır.',
     shareText:
         'Benim teknoloji tarzım: Erken Benimseyici! 🚀 Yeni teknolojiler çıktığında '
         'ilk deneyen olmayı severim. Beta sürüm, erken erişim; sorun değil. '
         'Teknoloji haberlerini takip eder, çevreme yeni araçları tanıştırırım. '
-        'Teknoloji benim için bir araç değil, tutku. '
+        'Yapay zeka, yeni cihazlar ve platform değişiklikleri gündelik sohbetimin '
+        'parçası. Yeniliğin ön saflarında olmak benim için bir tutku. '
+        'Teknoloji benim için bir araç değil, kimliğimin parçası. '
         'Sen de teknoloji profilini keşfet!',
   ),
   ResultProfile(
@@ -691,12 +818,18 @@ const resultProfiles = <ResultProfile>[
         'arasında yok. '
         'Yeni bir araç ya da platform denemeden önce "bu benim hayatıma '
         'ne katacak?" diye sorarsın. '
-        'Dijital sağlık senin için gerçek bir önceliktir.',
+        'Dijital sağlık senin için gerçek bir önceliktir. '
+        'Telefonsuz saatler geçirebilir, ekransız bir akşamı değerli bulabilirsin. '
+        'Teknolojinin dikkatini ve zamanını çaldığı her anı fark eder, '
+        'buna karşı aktif sınırlar çizersin. Bu bilinç seni hem üretken '
+        'hem de dinç tutuyor.',
     shareText:
         'Benim teknoloji tarzım: Dijital Minimalist! 🔇 Teknolojiyi bilinçli '
         'kullanırım. Gereksiz uygulama, amaçsız gezinme benim tarihimde yok. '
         'Bildirimleri yönetirim, ekran süresini farkındayım. Yeni bir araç '
-        '"bana ne katacak?" testini geçmeli. Dijital sağlık benim için öncelikli. '
+        '"bana ne katacak?" testini geçmeli. Telefonsuz saatler geçirebilirim; '
+        'ekransız bir akşam benim için değerli. Teknolojinin dikkatimi çaldığı '
+        'anlarda aktif sınır çizerim. Dijital sağlık benim için öncelikli. '
         'Sen de profilini öğrenmek ister misin?',
   ),
   ResultProfile(
@@ -717,12 +850,17 @@ const resultProfiles = <ResultProfile>[
         'Beğeni ve etkileşim önemlidir ama asıl motivasyonun yaratma sürecinin kendisidir. '
         'Yeni bir araç içerik kaliteni artırıyorsa hemen öğrenmeye girişirsin. '
         'Ürettiğin şeylerin başkalarını etkilemesi, bilgilendirmesi ya da '
-        'eğlendirmesi sana büyük tatmin verir.',
+        'eğlendirmesi sana büyük tatmin verir. '
+        'Sesin, görüntünün ya da yazının bir araya geldiği içerikler senin için '
+        'sadece bir yayın değil, bir sanat eseridir. Yeni formatları dener, '
+        'farklı platformları keşfeder ve kendi içerik stilini sürekli geliştirirsin.',
     shareText:
         'Benim teknoloji tarzım: İçerik Üreticisi! 🎬 Teknolojiyi üretmek için '
         'kullanırım. Kamera, mikrofon, yazı platformu; bunlar benim dijital atölyem. '
         'Fikirlerimi içeriğe dönüştürür, paylaşırım. Sosyal medyada izleyici değil, '
-        'üretici tarafındayım. Yaratma süreci benim için asıl tatmin. '
+        'üretici tarafındayım. Algoritmaları anlarım, platformları iyi kullanırım. '
+        'Yeni formatları dener, kendi içerik stilimi sürekli geliştiririm. '
+        'Yaratma süreci benim için asıl tatmin. '
         'Sen de teknoloji profilini keşfet!',
   ),
   ResultProfile(
@@ -743,14 +881,19 @@ const resultProfiles = <ResultProfile>[
         'Yeni bir uygulamayı birisi önermeden önce kendin araştırmazsın; '
         'ama önerildiğinde dener ve beğenirsen kullanmaya devam edersin. '
         'Sosyal medyada daha çok takip edersin, çok az üretirsin. '
-        'Teknoloji bir araç; işlevini görüyor mu, yeterli.',
+        'Teknoloji bir araç; işlevini görüyor mu, yeterli. '
+        'Teknoloji ile ilişkin sağlıklı ve dengeli; ne bağımlısın ne de geride '
+        'kalıyorsun. Herkesin öğrendiğinde sen de öğrenirsin, ama öncü olmak '
+        'için çabalamak sana gerekli gelmiyor. Bu rahat ve stressiz yaklaşım '
+        'seni tatmin ediyor.',
     shareText:
         'Benim teknoloji tarzım: Pasif Tüketici! 📺 Teknoloji hayatımı '
         'kolaylaştırıyor, bu bana yeterli. En son çıkanı takip etmek zorunda '
         'hissetmiyorum ama herkes benimseyince ben de adapte olurum. '
-        'İçerik izlemek ve takip etmek güçlü alanım. Sosyal medyada daha çok '
-        'okur, az paylaşırım. '
-        'Sen de profilini öğrenmek ister misin?',
+        'İçerik izlemek ve takip etmek güçlü alanım; dizi, podcast, video '
+        'benim vazgeçilmezlerim. Sosyal medyada daha çok okur, az paylaşırım. '
+        'Teknoloji ile ilişkim sağlıklı ve dengeli; bağımlı değilim, geride de '
+        'kalmıyorum. Sen de profilini öğrenmek ister misin?',
   ),
 
   // ─────────────────────────────────────────────
@@ -774,12 +917,17 @@ const resultProfiles = <ResultProfile>[
         'şehirde herkes kendi hayatını yaşar, kimse kimseye karışmaz. '
         'Yeni bir mahalle keşfetmek, yeni açılan bir mekan denemek '
         've şehrin nabzını hissetmek seni mutlu eder. '
-        'Şehir senin için bir sahne; ve sen o sahnede tam yerindeyken en iyisindir.',
+        'Şehir senin için bir sahne; ve sen o sahnede tam yerindeyken en iyisindir. '
+        'Farklı insanlarla, farklı kültürlerle ve farklı fikirlerle iç içe olmak '
+        'seni besler ve büyütür. Kalabalık bir şehirde bile kendi ritminle '
+        'dans etmeyi bilen birisin; şehir sana ait.',
     shareText:
         'Benim yaşam tarzım: Şehir Çocuğu! 🏙️ Şehrin enerjisi beni besler. '
         'Kalabalık caddeler, her köşede farklı bir hayat, gece yarısı açık kafeler; '
         'bunlar benim ortamım. Ulaşım kolaylığı, kültürel çeşitlilik, olanaklar '
-        'olmadan eksik hissederim. Şehir benim için bir sahne. '
+        'olmadan eksik hissederim. Yeni mahalleleri keşfetmek, yeni mekanlar denemek '
+        'benim için küçük maceralar. Farklı insanlar ve fikirlerle iç içe olmak '
+        'beni büyütüyor. Şehir benim için bir sahne. '
         'Sen de yaşam profilini keşfet!',
   ),
   ResultProfile(
@@ -801,12 +949,17 @@ const resultProfiles = <ResultProfile>[
         'Yaşam alanında bitki var, belki bir bahçe ya da balkon; '
         'doğayı içeriye taşımak istiyorsun. '
         'Sürdürülebilir yaşam, çevre bilinci ve ekolojik ayak izi '
-        'senin için önemli kavramlar.',
+        'senin için önemli kavramlar. '
+        'Açık havada spor yapmak, yürüyüş rotaları keşfetmek ya da '
+        'bir gün boyunca teknolojisiz doğada kalmak sana derin bir huzur verir. '
+        'Doğa senin için bir kaçış değil, asıl ev.',
     shareText:
         'Benim yaşam tarzım: Doğa Sever! 🌲 Doğada geçirdiğim zaman beni '
         'yeniden şarj eder. Dağlar, ormanlar, temiz hava; bunlar ruhumu besler. '
         'Şehrin gürültüsünden bunalırsam doğaya kaçarım. Hafta sonu yürüyüşü, '
-        'kamp, parkta oturmak; hepsi benim için terapi. '
+        'kamp, parkta oturmak; hepsi benim için terapi. Mevsimlerin değişimini '
+        'severim; her mevsim kendine özgü bir güzellik taşıyor. Sürdürülebilir '
+        'yaşam ve çevre bilinci benim için önemli değerler. '
         'Sen de yaşam profilini öğrenmek ister misin?',
   ),
   ResultProfile(
@@ -828,12 +981,17 @@ const resultProfiles = <ResultProfile>[
         'az uygulama, az hesap, az gürültü. '
         'Zaman ve dikkat en değerli kaynaklarındır; onları boşa harcamak istemezsin. '
         'Basit bir hayat seni mutlu ve özgür kılar; '
-        'karmaşıklık değil, netlik ararsın.',
+        'karmaşıklık değil, netlik ararsın. '
+        'Düzenli aralıklarla hayatından çıkardıkların, tuttuklarından daha anlamlı '
+        'hale gelir. Yıllık temizlikler, minimalizm pratikleri ve bilinçli tüketim '
+        'kararları bu yaşam felsefesinin somut yansımaları. Az ama her şey doğru.',
     shareText:
         'Benim yaşam tarzım: Minimal Yaşam! 🕊️ Daha az sahip olmak benim için '
         'daha fazla özgürlük. Yaşam alanım sade, seçimlerim bilinçli. '
         'Tüketim kültürüne mesafeli, reklamlara kayıtsız. '
         'Az ama öz; gereksiz yükler değil, gerçek değerler. '
+        'Düzenli aralıklarla hayatımdan çıkardıklarım, tuttuklarım kadar önemli. '
+        'Dijital gürültüyü de azaltırım; az hesap, az bildirim, daha çok huzur. '
         'Basit hayat beni huzurlu kılıyor. '
         'Sen de yaşam profilini keşfet!',
   ),
@@ -856,12 +1014,19 @@ const resultProfiles = <ResultProfile>[
         'bağlantı ve aidiyet senin için temel ihtiyaçtır. '
         'Kariyer, heyecanlar ya da yeni deneyimler önemli ama '
         'sevdiklerle olan zaman her zaman önceliğindedir. '
-        'İnsanları bir arada tutan, sıcaklığı yaratan kişi sensin.',
+        'İnsanları bir arada tutan, sıcaklığı yaratan kişi sensin. '
+        'Bayramlar, özel günler ve toplantılar için özenle hazırlık yaparsın; '
+        'çünkü bu anlar senin için sıradan değil, kutsal. İlişkileri beslemek, '
+        'insanları hatırlamak ve bağları canlı tutmak senin için bir görev değil, '
+        'gerçek bir zevk.',
     shareText:
         'Benim yaşam tarzım: Sıcak Yuva! ❤️ Yaşamımın merkezinde insanlar var. '
         'Aile, yakın arkadaşlar ve aidiyet benim için temel. '
         'Evimi sıcak ve davetkar tutarım; misafirler rahatsız değil, evinde hisseder. '
-        'Komşumu tanır, mahallemin parçası olurum. Bağlantı benim için zorunluluk. '
+        'Komşumu tanır, mahallemin parçası olurum. Özel günleri ve toplantıları '
+        'özenle hazırlarım; bu anlar benim için kutsal. İlişkileri beslemek, '
+        'insanları hatırlamak benim için bir görev değil, gerçek zevk. '
+        'Bağlantı benim için zorunluluk. '
         'Sen de yaşam profilini öğrenmek ister misin?',
   ),
 ];
