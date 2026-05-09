@@ -76,7 +76,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q1',
     categoryId: 'yemek',
-    text: 'Yeni bir restoranda ne yaparsın?',
+    text: 'Yeni bir restoranda ilk kez gittiğinde menüye baktığında genellikle ne yaparsın? Hangi yaklaşımı tercih edersin?',
     options: [
       QuizOption(
         id: 'yemek_q1_a',
@@ -93,7 +93,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q2',
     categoryId: 'yemek',
-    text: 'Akşam yemeği için ne yapmayı tercih edersin?',
+    text: 'Uzun bir günün ardından akşam yemeği için ne yapmayı en çok tercih edersin? Evde mi dışarıda mı?',
     options: [
       QuizOption(
         id: 'yemek_q2_a',
@@ -110,7 +110,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q3',
     categoryId: 'yemek',
-    text: 'Sofranda en önemli şey nedir?',
+    text: 'Bir yemek masasına oturduğunda sofrada seni en çok mutlu eden şey nedir? Lezzet mi ortam mı?',
     options: [
       QuizOption(
         id: 'yemek_q3_a',
@@ -127,7 +127,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q4',
     categoryId: 'yemek',
-    text: 'Hafta sonları kahvaltı nasıl olsun?',
+    text: 'Hafta sonu sabahı hiçbir yetiştirme telaşın yokken ideal kahvaltın nasıl olmalı? Ne tür bir kahvaltı istersin?',
     options: [
       QuizOption(
         id: 'yemek_q4_a',
@@ -144,7 +144,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q5',
     categoryId: 'yemek',
-    text: 'Yabancı bir mutfağı keşfedeceksin, nasıl yaklaşırsın?',
+    text: 'Daha önce hiç tatmadığın yabancı bir mutfağı ilk kez keşfedeceksin, nasıl yaklaşırsın? Cesaretli mi tedbirli mi?',
     options: [
       QuizOption(
         id: 'yemek_q5_a',
@@ -161,7 +161,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q6',
     categoryId: 'yemek',
-    text: 'Doğum günü yemeği nerede olsun?',
+    text: 'Doğum günün geliyor ve yemeği nasıl kutlamak istediğine sen karar vereceksin, nerede olsun? Seçiminiz nedir?',
     options: [
       QuizOption(
         id: 'yemek_q6_a',
@@ -178,7 +178,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q7',
     categoryId: 'yemek',
-    text: 'Markette alışveriş yaparken ne düşünürsün?',
+    text: 'Markette rafların arasında dolaşırken aklından genellikle ne geçer, ne düşünürsün? Nasıl bir bakış açısın?',
     options: [
       QuizOption(
         id: 'yemek_q7_a',
@@ -195,7 +195,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q8',
     categoryId: 'yemek',
-    text: 'Yeni açılan trendy bir restoranı ne zaman denersin?',
+    text: 'Şehirde yeni açılan çok konuşulan trendy bir restoranı ne zaman ve nasıl denersin? Meraklı mısın?',
     options: [
       QuizOption(
         id: 'yemek_q8_a',
@@ -212,7 +212,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q9',
     categoryId: 'yemek',
-    text: 'Yemek yaparken müzik açar mısın?',
+    text: 'Mutfakta yemek pişirirken arka planda müzik açmak sana nasıl hissettiriyor? Mutfak deneyimin nasıl?',
     options: [
       QuizOption(
         id: 'yemek_q9_a',
@@ -229,7 +229,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q10',
     categoryId: 'yemek',
-    text: 'Yemekte en önemli kriter nedir?',
+    text: 'Bir yemeği gerçekten iyi yapan şeyin ne olduğunu düşündüğünde en önemli kriter nedir? Sırasını belirle.',
     options: [
       QuizOption(
         id: 'yemek_q10_a',
@@ -246,7 +246,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q11',
     categoryId: 'yemek',
-    text: 'Seyahatte yemek konusunda nasılsın?',
+    text: 'Yabancı bir şehirde seyahat ederken yemek seçimi konusunda nasıl bir tutum sergiliyorsun? Hangi tercih senindir?',
     options: [
       QuizOption(
         id: 'yemek_q11_a',
@@ -263,7 +263,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yemek_q12',
     categoryId: 'yemek',
-    text: 'Misafirlerin geldiğinde ne yaparsın?',
+    text: 'Sevdiğin insanlar seni ziyarete geldiğinde onlara yemek konusunda ne yaparsın? Nasıl karşılarsın?',
     options: [
       QuizOption(
         id: 'yemek_q12_a',
@@ -282,7 +282,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q1',
     categoryId: 'seyahat',
-    text: 'Tatil planını kim yapmalı?',
+    text: 'Bir tatile çıkmadan önce seyahat planını kim yapmalı, nasıl hazırlanmalısın? Planlı mı ya da spontane mi?',
     options: [
       QuizOption(
         id: 'seyahat_q1_a',
@@ -299,7 +299,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q2',
     categoryId: 'seyahat',
-    text: 'Yeni bir şehirde ilk durak neresi?',
+    text: 'Daha önce hiç gitmediğin yeni bir şehre vardığında ilk durak olarak nereyi seçersin? Ne çeker seni?',
     options: [
       QuizOption(
         id: 'seyahat_q2_a',
@@ -316,7 +316,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q3',
     categoryId: 'seyahat',
-    text: 'Konaklama tercihini belirleyen nedir?',
+    text: 'Seyahatte konaklama yeri seçerken seni en çok etkileyen ve belirleyici olan unsur nedir? Tercihini söyle.',
     options: [
       QuizOption(
         id: 'seyahat_q3_a',
@@ -333,7 +333,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q4',
     categoryId: 'seyahat',
-    text: 'Tatilde fotoğraf çekmek sana göre mi?',
+    text: 'Tatilde güzel bir manzarayla karşılaştığında fotoğraf çekmek hakkında ne düşünürsün? Fotoğraf önemli mi?',
     options: [
       QuizOption(
         id: 'seyahat_q4_a',
@@ -350,7 +350,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q5',
     categoryId: 'seyahat',
-    text: 'Seyahatte en çok neye zaman ayırırsın?',
+    text: 'Bir seyahatte günlük zamanını planlarken en çok hangi aktiviteye vakit ayırırsın? Hangisi seni çeker?',
     options: [
       QuizOption(
         id: 'seyahat_q5_a',
@@ -367,7 +367,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q6',
     categoryId: 'seyahat',
-    text: 'Rotanı değiştiren bir ipucu geldi, ne yaparsın?',
+    text: 'Seyahatte biri sana rotanı tamamen değiştirecek çok iyi bir ipucu verdi, ne yaparsın? Planı değiştirir misin?',
     options: [
       QuizOption(
         id: 'seyahat_q6_a',
@@ -384,7 +384,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q7',
     categoryId: 'seyahat',
-    text: 'Bagaj hazırlarken nasıl birisin?',
+    text: 'Bir haftalık seyahat öncesinde bagaj hazırlarken nasıl bir yaklaşım sergiliyorsun? Hafif mi ağır mı?',
     options: [
       QuizOption(
         id: 'seyahat_q7_a',
@@ -401,7 +401,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q8',
     categoryId: 'seyahat',
-    text: 'Tatil bütçen nasıl şekillenir?',
+    text: 'Bir yıllık tatil planı yaparken bütçeni nasıl ayarlar ve harcamalarını nasıl şekillendirirsin? Konforlu mu ekonomik mi?',
     options: [
       QuizOption(
         id: 'seyahat_q8_a',
@@ -418,7 +418,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q9',
     categoryId: 'seyahat',
-    text: 'Turistik yerler hakkında ne düşünürsün?',
+    text: 'Gittiğin şehirde kalabalık turistik mekanlar hakkında genel olarak ne düşünürsün? Görmek ister misin?',
     options: [
       QuizOption(
         id: 'seyahat_q9_a',
@@ -435,7 +435,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q10',
     categoryId: 'seyahat',
-    text: 'Uçuş sırasında zamanını nasıl geçirirsin?',
+    text: 'Birkaç saatlik uzun bir uçuş sırasında zamanını genellikle nasıl değerlendirirsin? Nasıl geçirirsin?',
     options: [
       QuizOption(
         id: 'seyahat_q10_a',
@@ -452,7 +452,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q11',
     categoryId: 'seyahat',
-    text: 'Tatilden döndükten sonra ne hissedersin?',
+    text: 'Uzun bir tatilden eve döndükten hemen sonra içinde nasıl bir his oluşur? Nasıl hissedersin?',
     options: [
       QuizOption(
         id: 'seyahat_q11_a',
@@ -469,7 +469,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'seyahat_q12',
     categoryId: 'seyahat',
-    text: 'Yurt dışı tatilinde dil sorunu yaşarsan?',
+    text: 'Yurt dışı tatilinde hiç bilmediğin bir dilde iletişim sorunu yaşarsan ne yaparsın? Nasıl çözersin?',
     options: [
       QuizOption(
         id: 'seyahat_q12_a',
@@ -488,7 +488,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q1',
     categoryId: 'sabah_gece',
-    text: 'Alarm olmadan ne zaman uyanırsın?',
+    text: 'Hiçbir yükümlülüğün olmadığı bir günde alarm kurmadan doğal olarak ne zaman uyanırsın?',
     options: [
       QuizOption(
         id: 'sabah_gece_q1_a',
@@ -505,7 +505,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q2',
     categoryId: 'sabah_gece',
-    text: 'En verimli saatin hangisi?',
+    text: 'Günün hangi saatinde kendin olarak en verimli ve odaklanmış şekilde çalışabiliyorsun?',
     options: [
       QuizOption(
         id: 'sabah_gece_q2_a',
@@ -522,7 +522,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q3',
     categoryId: 'sabah_gece',
-    text: 'Hafta sonu sabahları ne yaparsın?',
+    text: 'Hafta sonu sabahları ne yaparsın? Erken mi geç mi kalkarsın ve nasıl başlarsın günü?',
     options: [
       QuizOption(
         id: 'sabah_gece_q3_a',
@@ -539,7 +539,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q4',
     categoryId: 'sabah_gece',
-    text: 'Sabah kahveni veya çayını içerken ne yaparsın?',
+    text: 'Sabah kahveni veya çayını içerken ne yaparsın? Günü planlarsın mı yoksa dinlenirsin?',
     options: [
       QuizOption(
         id: 'sabah_gece_q4_a',
@@ -556,7 +556,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q5',
     categoryId: 'sabah_gece',
-    text: 'Gece geç saatte bir davet gelirse?',
+    text: 'Gece geç saatte bir davet gelirse nasıl tepki verirsin? Gidebilir misin yoksa ertelemelim mi dersin?',
     options: [
       QuizOption(
         id: 'sabah_gece_q5_a',
@@ -573,7 +573,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q6',
     categoryId: 'sabah_gece',
-    text: 'Uyku düzenin nasıl?',
+    text: 'Uyku düzenin nasıl? Tutarlı mi yoksa değişken bir ritim mi izlersin?',
     options: [
       QuizOption(
         id: 'sabah_gece_q6_a',
@@ -590,7 +590,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q7',
     categoryId: 'sabah_gece',
-    text: 'Sabah ilk uyandığında ne hissedersin?',
+    text: 'Sabah ilk uyandığında ne hissedersin? Enerji dolu mu yoksa uyuşuk mu uyansın?',
     options: [
       QuizOption(
         id: 'sabah_gece_q7_a',
@@ -607,7 +607,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q8',
     categoryId: 'sabah_gece',
-    text: 'Gece geç saatlerde ne yaparsın?',
+    text: 'Gece geç saatlerde ne yaparsın? Çalışır mısın yoksa uyumaya başlarken misin?',
     options: [
       QuizOption(
         id: 'sabah_gece_q8_a',
@@ -624,7 +624,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q9',
     categoryId: 'sabah_gece',
-    text: 'Sabah rutinin var mı?',
+    text: 'Sabah rutinin var mı? Sabah aktiviteleri ne kadar disiplinli ve planlanmış?',
     options: [
       QuizOption(
         id: 'sabah_gece_q9_a',
@@ -641,7 +641,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q10',
     categoryId: 'sabah_gece',
-    text: 'Enerji pikini günün hangi bölümünde yaşarsın?',
+    text: 'Enerji pikini günün hangi bölümünde yaşarsın? Sabah mı yoksa gece mi en aktifsin?',
     options: [
       QuizOption(
         id: 'sabah_gece_q10_a',
@@ -658,7 +658,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q11',
     categoryId: 'sabah_gece',
-    text: 'Erken toplantı veya geç randevu hangisi daha iyi?',
+    text: 'Erken toplantı veya geç randevu hangisi sana daha uygun geliyor? Hangisini tercih edersin?',
     options: [
       QuizOption(
         id: 'sabah_gece_q11_a',
@@ -675,7 +675,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sabah_gece_q12',
     categoryId: 'sabah_gece',
-    text: 'Tatilde uyku düzenin bozulursa?',
+    text: 'Tatilde uyku düzenin bozulursa nasıl tepki verirsin? Esnekmisin yoksa rahatsız mısın?',
     options: [
       QuizOption(
         id: 'sabah_gece_q12_a',
@@ -694,7 +694,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q1',
     categoryId: 'sosyal',
-    text: 'Büyük bir partide nasıl davranırsın?',
+    text: 'Büyük bir partide nasıl davranırsın? Sosyal misin yoksa içine çekilmiş misin?',
     options: [
       QuizOption(
         id: 'sosyal_q1_a',
@@ -711,7 +711,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q2',
     categoryId: 'sosyal',
-    text: 'Hafta sonu planın nasıl şekillenir?',
+    text: 'Hafta sonu planın nasıl şekillenir? Yalnız mı yoksa insanlarla beraber mi?',
     options: [
       QuizOption(
         id: 'sosyal_q2_a',
@@ -728,7 +728,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q3',
     categoryId: 'sosyal',
-    text: 'Tanımadığın biriyle sohbet başlatmak?',
+    text: 'Tanımadığın biriyle sohbet başlatmak sana zor mu? Kolay mı yoksa çekingen misin?',
     options: [
       QuizOption(
         id: 'sosyal_q3_a',
@@ -745,7 +745,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q4',
     categoryId: 'sosyal',
-    text: 'Sosyal medyada paylaşım nasılsın?',
+    text: 'Sosyal medyada paylaşım sıklığı ve tercihleriniz nasılsın? Aktif misin yoksa gizli misin?',
     options: [
       QuizOption(
         id: 'sosyal_q4_a',
@@ -762,7 +762,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q5',
     categoryId: 'sosyal',
-    text: 'Arkadaş sayısı mı kalitesi mi?',
+    text: 'Arkadaş sayısı mı kalitesi mi? Çok arkadaş mı kâh derin bağlar mı?',
     options: [
       QuizOption(
         id: 'sosyal_q5_a',
@@ -779,7 +779,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q6',
     categoryId: 'sosyal',
-    text: 'Uzun süre yalnız kalınca ne olur?',
+    text: 'Uzun süre yalnız kalınca ne olur? Şarj olur musun yoksa huzursuz olur musun?',
     options: [
       QuizOption(
         id: 'sosyal_q6_a',
@@ -796,7 +796,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q7',
     categoryId: 'sosyal',
-    text: 'İş dışında insanlarla zaman geçirmek sana göre mi?',
+    text: 'İş dışında insanlarla zaman geçirmek sana göre mi? Karışık mı tutarsın ayrı mı?',
     options: [
       QuizOption(
         id: 'sosyal_q7_a',
@@ -813,7 +813,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q8',
     categoryId: 'sosyal',
-    text: 'Sürpriz bir misafir gelirse?',
+    text: 'Sürpriz bir misafir gelirse nasıl hissedersin? Keyif alırsın mı yoksa hazırlıksız kalırsın mı?',
     options: [
       QuizOption(
         id: 'sosyal_q8_a',
@@ -830,7 +830,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q9',
     categoryId: 'sosyal',
-    text: 'Sosyal enerji dengeni nasıl kurarsın?',
+    text: 'Sosyal enerji dengeni nasıl kurarsın? İnsanlarla ve yalnızlıkla dengeyi yakala?',
     options: [
       QuizOption(
         id: 'sosyal_q9_a',
@@ -847,7 +847,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q10',
     categoryId: 'sosyal',
-    text: 'Grup sohbetlerine katılım nasılsın?',
+    text: 'Grup sohbetlerine aktif katılım ve rolünüz nasılsın? Canlandırıcı mısın yoksa dinleyici misin?',
     options: [
       QuizOption(
         id: 'sosyal_q10_a',
@@ -864,7 +864,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q11',
     categoryId: 'sosyal',
-    text: 'Arkadaşlarınla nasıl iletişim kurarsın?',
+    text: 'Arkadaşlarınla nasıl iletişim kurarsın? Sık mı az mı ama derin iletişim?',
     options: [
       QuizOption(
         id: 'sosyal_q11_a',
@@ -881,7 +881,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'sosyal_q12',
     categoryId: 'sosyal',
-    text: 'İdeal bir gün nasıl geçer?',
+    text: 'İdeal bir gün nasıl geçer? Evde mi yoksa insanlarla mı?',
     options: [
       QuizOption(
         id: 'sosyal_q12_a',
@@ -900,7 +900,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q1',
     categoryId: 'alisveris',
-    text: 'Mağazaya girince ne yaparsın?',
+    text: 'Mağazaya girince ne yaparsın? Listeme uyar mısın yoksa gözüme çarpanları alırsın?',
     options: [
       QuizOption(
         id: 'alisveris_q1_a',
@@ -917,7 +917,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q2',
     categoryId: 'alisveris',
-    text: 'Yeni bir teknoloji ürünü çıktı, ne yaparsın?',
+    text: 'Yeni bir teknoloji ürünü çıktı, ne yaparsın? Hemen alır mısın yoksa araştırır mısın?',
     options: [
       QuizOption(
         id: 'alisveris_q2_a',
@@ -934,7 +934,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q3',
     categoryId: 'alisveris',
-    text: 'İndirim sezonunda nasılsın?',
+    text: 'İndirim sezonunda nasılsın? Planlandı satın alırım mı yoksa heyecanla alırım?',
     options: [
       QuizOption(
         id: 'alisveris_q3_a',
@@ -951,7 +951,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q4',
     categoryId: 'alisveris',
-    text: 'Eşya saydığında neler görürsün?',
+    text: 'Eşya saydığında neler görürsün? Az ve işlevsel mi yoksa birikimliyim?',
     options: [
       QuizOption(
         id: 'alisveris_q4_a',
@@ -968,7 +968,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q5',
     categoryId: 'alisveris',
-    text: 'Online alışveriş yaparken?',
+    text: 'Online alışveriş yaparken nasılsın? Hesaplı mı yoksa hızlıca karar verirsin?',
     options: [
       QuizOption(
         id: 'alisveris_q5_a',
@@ -985,7 +985,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q6',
     categoryId: 'alisveris',
-    text: 'Dolabında fazladan eşya olunca?',
+    text: 'Dolabında fazladan eşya olunca ne yaparsın? Temizler misin yoksa saklarısın?',
     options: [
       QuizOption(
         id: 'alisveris_q6_a',
@@ -1002,7 +1002,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q7',
     categoryId: 'alisveris',
-    text: 'Pahalı bir şey almadan önce ne yaparsın?',
+    text: 'Pahalı bir şey almadan önce ne yaparsın? Araştırırsın mı yoksa sezgiyle alırsın?',
     options: [
       QuizOption(
         id: 'alisveris_q7_a',
@@ -1019,7 +1019,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q8',
     categoryId: 'alisveris',
-    text: 'Bir kategoride kaç tane olsun?',
+    text: 'Bir kategoride kaç tane olmalı? Bir tane mi yoksa çeşitleri mi seversin?',
     options: [
       QuizOption(
         id: 'alisveris_q8_a',
@@ -1036,7 +1036,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q9',
     categoryId: 'alisveris',
-    text: 'Bütçeni nasıl yönetirsin?',
+    text: 'Aylık bütçeni yönetim tarzınız nasıl? Planlı mı yoksa dürtüsel harcamalar mı?',
     options: [
       QuizOption(
         id: 'alisveris_q9_a',
@@ -1053,7 +1053,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q10',
     categoryId: 'alisveris',
-    text: 'Giyim dolabın nasıl?',
+    text: 'Giyim dolabın nasıl? Minimal gardırop mu yoksa çeşitli seçenekler mi?',
     options: [
       QuizOption(
         id: 'alisveris_q10_a',
@@ -1070,7 +1070,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q11',
     categoryId: 'alisveris',
-    text: 'Hediye alırken nasıl seçim yaparsın?',
+    text: 'Hediye alırken nasıl seçim yaparsın? Uzun düşünülmüş mü yoksa spontane mi?',
     options: [
       QuizOption(
         id: 'alisveris_q11_a',
@@ -1087,7 +1087,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'alisveris_q12',
     categoryId: 'alisveris',
-    text: 'Eski eşyalarını ne yaparsın?',
+    text: 'Eski eşyalarını ne yaparsın? Satarım ya da bağışlarım yoksa saklarım?',
     options: [
       QuizOption(
         id: 'alisveris_q12_a',
@@ -1106,7 +1106,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q1',
     categoryId: 'calisma',
-    text: 'Bir göreve başlarken nasılsın?',
+    text: 'Bir göreve veya projeye başlarken yaklaşımınız nasılsın? Planlı mı başlarımsın yoksa dalarım?',
     options: [
       QuizOption(
         id: 'calisma_q1_a',
@@ -1123,7 +1123,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q2',
     categoryId: 'calisma',
-    text: 'Çalışma ortamın nasıl olmalı?',
+    text: 'Çalışma ortamın nasıl olmalı? Sessiz ve düzenli mi yoksa kaotik mi?',
     options: [
       QuizOption(
         id: 'calisma_q2_a',
@@ -1140,7 +1140,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q3',
     categoryId: 'calisma',
-    text: 'Proje teslim tarihi yaklaşıyor, ne yaparsın?',
+    text: 'Proje teslim tarihi yaklaşıyor, ne yaparsın? Çok önceden mi yoksa son anda mı?',
     options: [
       QuizOption(
         id: 'calisma_q3_a',
@@ -1157,7 +1157,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q4',
     categoryId: 'calisma',
-    text: 'Çalışırken kesintiler nasıl etkiliyor seni?',
+    text: 'Çalışırken kesintiler nasıl etkiliyor seni? Odağım kırılır mı yoksa rahat alırım?',
     options: [
       QuizOption(
         id: 'calisma_q4_a',
@@ -1174,7 +1174,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q5',
     categoryId: 'calisma',
-    text: 'Yeni bir proje fikri gelince?',
+    text: 'Yeni bir proje fikri gelince nasıl tepki verirsin? Heyecanlansam mı yoksa endişele misin?',
     options: [
       QuizOption(
         id: 'calisma_q5_a',
@@ -1191,7 +1191,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q6',
     categoryId: 'calisma',
-    text: 'Günlük çalışma programın nasıl?',
+    text: 'Günlük çalışma programın nasıl? Aynı bloklar mı yoksa esnek mi?',
     options: [
       QuizOption(
         id: 'calisma_q6_a',
@@ -1208,7 +1208,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q7',
     categoryId: 'calisma',
-    text: 'Derin odak gerektiren bir iş yapıyorsun, ne olur?',
+    text: 'Derin odak gerektiren bir iş yapıyorsun, ne olur? Telefon kapatırım mı yoksa müzik açarım?',
     options: [
       QuizOption(
         id: 'calisma_q7_a',
@@ -1225,7 +1225,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q8',
     categoryId: 'calisma',
-    text: 'Takım çalışması mı bireysel mi?',
+    text: 'Takım çalışması mı bireysel çalışma mı? Beraber mi yoksa kendi başıma mı?',
     options: [
       QuizOption(
         id: 'calisma_q8_a',
@@ -1242,7 +1242,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q9',
     categoryId: 'calisma',
-    text: 'Yapılacaklar listeni nasıl yönetirsin?',
+    text: 'Yapılacaklar listeni nasıl yönetirsin? Detaylı liste mi yoksa kafamda tutarım?',
     options: [
       QuizOption(
         id: 'calisma_q9_a',
@@ -1259,7 +1259,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q10',
     categoryId: 'calisma',
-    text: 'Zor bir sorunla karşılaşınca?',
+    text: 'Zor bir sorunla karşılaşınca ne yaparsın? Saatler boyunca odaklanırım mı mola veririm?',
     options: [
       QuizOption(
         id: 'calisma_q10_a',
@@ -1276,7 +1276,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q11',
     categoryId: 'calisma',
-    text: 'Çalışma araçların nasıl?',
+    text: 'Çalışma araçların nasıl? Minimalist mi yoksa her türlü araç var mı?',
     options: [
       QuizOption(
         id: 'calisma_q11_a',
@@ -1293,7 +1293,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'calisma_q12',
     categoryId: 'calisma',
-    text: 'Bir iş değişikliğinde nasıl uyum sağlarsın?',
+    text: 'Bir iş değişikliğinde nasıl uyum sağlarsın? Hızlı mı yoksa yavaş mı alışırsın?',
     options: [
       QuizOption(
         id: 'calisma_q12_a',
@@ -1312,7 +1312,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q1',
     categoryId: 'teknoloji',
-    text: 'Yeni bir uygulama çıktı, ne yaparsın?',
+    text: 'Yeni bir uygulama çıktı, ne yaparsın? Hemen indiririm mi yoksa bekler miyim?',
     options: [
       QuizOption(
         id: 'teknoloji_q1_a',
@@ -1329,7 +1329,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q2',
     categoryId: 'teknoloji',
-    text: 'Sosyal medyayı nasıl kullanırsın?',
+    text: 'Sosyal medyayı nasıl kullanırsın? İçerik üretir miyim yoksa tüketir miyim?',
     options: [
       QuizOption(
         id: 'teknoloji_q2_a',
@@ -1346,7 +1346,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q3',
     categoryId: 'teknoloji',
-    text: 'Telefonuna kaç uygulama yüklüsün?',
+    text: 'Telefonuna kaç uygulama yüklüsün? Çok az mı yoksa her yeniyi deniyor muyum?',
     options: [
       QuizOption(
         id: 'teknoloji_q3_a',
@@ -1363,7 +1363,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q4',
     categoryId: 'teknoloji',
-    text: 'Yeni bir akıllı cihaz çıktı, tepkin ne?',
+    text: 'Yeni bir akıllı cihaz çıktı, tepkin ne? Heyecanlı mıyım yoksa temkin miyin?',
     options: [
       QuizOption(
         id: 'teknoloji_q4_a',
@@ -1380,7 +1380,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q5',
     categoryId: 'teknoloji',
-    text: 'İçerik tüketirken nasılsın?',
+    text: 'Online içerik tüketme alışkanlıklarınız nasılsın? Saatlerce tüketerim mi yoksa kendim yaratırım?',
     options: [
       QuizOption(
         id: 'teknoloji_q5_a',
@@ -1397,7 +1397,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q6',
     categoryId: 'teknoloji',
-    text: 'Dijital detoks yapabilir misin?',
+    text: 'Teknoloji kullanımından arınma için dijital detoks yapabilir misin? Evet diyorum yoksa hayır diyorum?',
     options: [
       QuizOption(
         id: 'teknoloji_q6_a',
@@ -1414,7 +1414,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q7',
     categoryId: 'teknoloji',
-    text: 'Blog, video ya da podcast yapar mısın?',
+    text: 'Blog, video ya da podcast yapar mısın? Evet severim misin yoksa izlemeye yeterli?',
     options: [
       QuizOption(
         id: 'teknoloji_q7_a',
@@ -1431,7 +1431,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q8',
     categoryId: 'teknoloji',
-    text: 'Bildirimler kapalı mı açık mı?',
+    text: 'Bildirimler kapalı mı açık mı? Çoğu kapalı mı yoksa açık mı?',
     options: [
       QuizOption(
         id: 'teknoloji_q8_a',
@@ -1448,7 +1448,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q9',
     categoryId: 'teknoloji',
-    text: 'Sosyal medya takipçi sayısı önemli mi?',
+    text: 'Sosyal medya takipçi sayısı önemli mi? Evet önemli misin yoksa önemsemiyor musun?',
     options: [
       QuizOption(
         id: 'teknoloji_q9_a',
@@ -1465,7 +1465,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q10',
     categoryId: 'teknoloji',
-    text: 'Yapay zeka araçlarını nasıl karşılıyorsun?',
+    text: 'Yapay zeka araçlarını nasıl karşılıyorsun? Hepsini denerim misin yoksa temkin miyin?',
     options: [
       QuizOption(
         id: 'teknoloji_q10_a',
@@ -1482,7 +1482,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q11',
     categoryId: 'teknoloji',
-    text: 'Bir içerik seni nasıl etkiler?',
+    text: 'Bir içerik seni nasıl etkiler? İzler ve geçerim mi yoksa kendim yaratırım?',
     options: [
       QuizOption(
         id: 'teknoloji_q11_a',
@@ -1499,7 +1499,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'teknoloji_q12',
     categoryId: 'teknoloji',
-    text: 'Ekran başında günde kaç saat geçirirsin?',
+    text: 'Ekran başında günde kaç saat geçirirsin? Az tutarım mı yoksa çok mı?',
     options: [
       QuizOption(
         id: 'teknoloji_q12_a',
@@ -1518,7 +1518,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q1',
     categoryId: 'yasam',
-    text: 'Nerede yaşamak istersin?',
+    text: 'Yaşamak için ideal yerin nerede olmalı? Şehir merkezinde mi yoksa doğada mı?',
     options: [
       QuizOption(
         id: 'yasam_q1_a',
@@ -1535,7 +1535,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q2',
     categoryId: 'yasam',
-    text: 'Evin nasıl dekore edilmeli?',
+    text: 'Evin nasıl dekore edilmeli? Minimalist mi yoksa sıcak ve samimi mi?',
     options: [
       QuizOption(
         id: 'yasam_q2_a',
@@ -1552,7 +1552,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q3',
     categoryId: 'yasam',
-    text: 'Hafta sonu sabahı en güzel nasıl başlar?',
+    text: 'Hafta sonu sabahı en güzel nasıl başlar? Doğada mı yoksa şehirde kafede mi?',
     options: [
       QuizOption(
         id: 'yasam_q3_a',
@@ -1569,7 +1569,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q4',
     categoryId: 'yasam',
-    text: 'Eşya birikiyor, ne yaparsın?',
+    text: 'Eşya birikiyor, ne yaparsın? Çıkarırım mı yoksa hepsi önemli midir?',
     options: [
       QuizOption(
         id: 'yasam_q4_a',
@@ -1586,7 +1586,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q5',
     categoryId: 'yasam',
-    text: 'Seyahat etmeden önce nereye gitmek istersin?',
+    text: 'Seyahat etmeden önce nereye gitmek istersin? Kalabalık şehre mi yoksa doğaya mı?',
     options: [
       QuizOption(
         id: 'yasam_q5_a',
@@ -1603,7 +1603,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q6',
     categoryId: 'yasam',
-    text: 'Ev ortamında neler olmazsa olmaz?',
+    text: 'Ev ortamında neler olmazsa olmaz? Huzur mu yoksa sıcaklık mı?',
     options: [
       QuizOption(
         id: 'yasam_q6_a',
@@ -1620,7 +1620,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q7',
     categoryId: 'yasam',
-    text: 'Stres atmanın en iyi yolu?',
+    text: 'Stres atmanın en iyi yolu? Doğada yürüyüş mü yoksa şehirde gezmek mi?',
     options: [
       QuizOption(
         id: 'yasam_q7_a',
@@ -1637,7 +1637,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q8',
     categoryId: 'yasam',
-    text: 'Yaşam alanında renk paleti nasıl olsun?',
+    text: 'Yaşam alanında renk paleti nasıl olsun? Nötr tonlar mı yoksa canlı renkler mi?',
     options: [
       QuizOption(
         id: 'yasam_q8_a',
@@ -1654,7 +1654,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q9',
     categoryId: 'yasam',
-    text: 'İdeal komşuluk nasıl olmalı?',
+    text: 'İdeal komşuluk nasıl olmalı? Mahrem mi yoksa sosyal mı olsun?',
     options: [
       QuizOption(
         id: 'yasam_q9_a',
@@ -1671,7 +1671,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q10',
     categoryId: 'yasam',
-    text: 'Evde bitkiler var mı?',
+    text: 'Evde bitkiler var mı? Çok yeşillik mı yoksa minimalist mı?',
     options: [
       QuizOption(
         id: 'yasam_q10_a',
@@ -1688,7 +1688,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q11',
     categoryId: 'yasam',
-    text: 'Akşam yemeği sonrası ne yaparsın?',
+    text: 'Akşam yemeği sonrası ne yaparsın? Dışarıya çıkar mı yoksa evde kalırım?',
     options: [
       QuizOption(
         id: 'yasam_q11_a',
@@ -1705,7 +1705,7 @@ const quizSeedQuestions = <QuizQuestion>[
   QuizQuestion(
     id: 'yasam_q12',
     categoryId: 'yasam',
-    text: 'Yaşam tarzında en önemli şey nedir?',
+    text: 'Yaşam tarzında en önemli şey nedir? Sadelik mi yoksa doğayla bağlantı mı?',
     options: [
       QuizOption(
         id: 'yasam_q12_a',
