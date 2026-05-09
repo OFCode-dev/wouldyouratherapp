@@ -28,18 +28,15 @@ const resultProfiles = <ResultProfile>[
         'ölçüttür. Aynı şehirde bile farklı mahallelerin mutfak kültürlerini keşfetmek için yola çıkarsın. '
         'Yemek, senin için dünyanın en erişilebilir seyahat aracıdır.',
     shareText:
-        'Benim yemek tarzım: Foodie Kaşif! 🍽️ Menüdeki en ilginç yemeği seçer, '
-        'bilmediğim mutfakları keşfetmekten büyük zevk alırım. Seyahatte ilk durağım '
-        'yerel pazar, ilk sorum "buranın meşhur yemeği ne?" olur. Baharatlı mı, egzotik mi, '
-        'sıra dışı mı? Sorun değil, hepsini denerim! Arkadaşlarımla yemek yerken genellikle '
-        'masanın en cesur siparişini ben veririm. Bir yemeğin arkasındaki kültürü, tarihi ve '
-        'hikâyeyi merak ederim. Sokak lezzetinden fine dining\'e kadar her deneyime açığım; '
-        'asıl olan otantiklik. Yemek benim için sadece doyma değil, dünyayı anlamanın en '
-        'lezzetli yolu. Aynı şehirde bile farklı mahallelerin mutfaklarını keşfetmeye çıkarım; '
-        'her yeni tat benim için küçük bir zafer. Malzemeleri özgürce harmanlar, tariflere '
-        'körü körüne bağlanmam; mevsimsel lezzetleri takip eder, mutfak dışında da öğrenmeye '
-        'devam ederim. Dünyanın her köşesinde yeni bir lezzet hikâyesi var ve ben o hikâyeleri '
-        'yaşayarak keşfetmek istiyorum. Sen de yemek profilini öğrenmek ister misin?',
+        'Benim yemek tarzım: Foodie Kaşif! 🍽️ Menüdeki en ilginç yemeği seçer, bilmediğim '
+        'mutfakları keşfetmekten büyük zevk alırım. Seyahatte ilk durağım yerel pazar, ilk sorum '
+        '"buranın meşhur yemeği ne?" olur. Baharatlı mı, egzotik mi, sıra dışı mı? Sorun değil! '
+        'Arkadaşlarımla yemek yerken masanın en cesur siparişini ben veririm. Bir yemeğin arkasındaki '
+        'kültür, tarih ve hikâyeyi merak ederim. Sokak lezzetinden fine dining\'e kadar her deneyime açığım; '
+        'otantiklik benim için en önemli ölçüttür. Yemek benim için sadece doyma değil, dünyayı ve farklı '
+        'kültürleri anlamanın en lezzetli yolu. Mutfakta malzemeleri özgürce harmanlayıp, mevsimsel lezzetleri '
+        'keşfetmeyi severim. Dünyanın her köşesinde yeni bir lezzet hikâyesi var ve ben o hikâyeleri yaşayarak '
+        'keşfetmek istiyorum. Sen de yemek profilini öğrenmek ister misin?',
   ),
   ResultProfile(
     id: 'yemek_profile_2',
