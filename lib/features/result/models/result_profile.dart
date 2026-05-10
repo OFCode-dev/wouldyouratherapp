@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class ResultProfile {
   final String id;
   final String categoryId;
@@ -6,6 +8,8 @@ class ResultProfile {
   final String description;
   final String emoji;
   final String shareText;
+  final Color color;
+  final String type;
 
   const ResultProfile({
     required this.id,
@@ -15,5 +19,7 @@ class ResultProfile {
     required this.description,
     required this.emoji,
     required this.shareText,
+    required this.color,
+    required this.type,
   });
 }

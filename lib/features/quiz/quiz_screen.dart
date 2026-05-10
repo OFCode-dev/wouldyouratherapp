@@ -7,7 +7,9 @@ import 'widgets/quiz_option_card.dart';
 import 'widgets/quiz_progress_bar.dart';
 
 class QuizScreen extends ConsumerWidget {
-  const QuizScreen({super.key});
+  final String? categoryId;
+
+  const QuizScreen({super.key, this.categoryId});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -55,7 +57,11 @@ class QuizScreen extends ConsumerWidget {
                             quizController.selectOption(option.id);
 
                             if (shouldFinish) {
-                              context.go('/result');
+                              if (categoryId != null) {
+                                context.go('/result/$categoryId');
+                              } else {
+                                context.go('/result');
+                              }
                               return;
                             }
 
