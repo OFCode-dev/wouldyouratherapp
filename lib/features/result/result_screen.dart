@@ -2,14 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:screenshot/screenshot.dart';
 
 import '../quiz/providers/quiz_controller.dart';
 import 'services/result_calculator.dart';
 import 'services/share_text_builder.dart';
 import 'widgets/result_profile_card.dart';
+import 'widgets/result_share_card.dart';
 
 class ResultScreen extends ConsumerWidget {
-  const ResultScreen({super.key});
+  final String? categoryId;
+
+  const ResultScreen({super.key, this.categoryId});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

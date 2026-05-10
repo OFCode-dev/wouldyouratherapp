@@ -8,6 +8,7 @@ class ResultCalculator {
   ResultProfile calculate({
     required List<QuizQuestion> questions,
     required Map<String, String> answers,
+    required String categoryId,
   }) {
     final scores = <String, int>{};
 
@@ -26,8 +27,12 @@ class ResultCalculator {
       }
     }
 
+    final categoryProfiles = resultProfiles
+        .where((p) => p.categoryId == categoryId)
+        .toList();
+
     if (scores.isEmpty) {
-      return resultProfiles.first;
+      return categoryProfiles.first;
     }
 
     var topKey = scores.keys.first;
@@ -40,9 +45,9 @@ class ResultCalculator {
       }
     }
 
-    return resultProfiles.firstWhere(
+    return categoryProfiles.firstWhere(
       (profile) => profile.id == topKey,
-      orElse: () => resultProfiles.first,
+      orElse: () => categoryProfiles.first,
     );
   }
 }

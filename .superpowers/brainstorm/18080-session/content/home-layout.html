@@ -1,0 +1,63 @@
+<h2>Ana Ekran Düzeni</h2>
+<p class="subtitle">8 kategori nasıl görünsün? Birini seç.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="grid" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#f5f0ff;padding:16px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:220px;margin:0 auto">
+        <div style="background:#7c3aed;border-radius:12px;padding:12px 8px;text-align:center;color:white;font-size:11px">🍕<br>Yemek</div>
+        <div style="background:#7c3aed;border-radius:12px;padding:12px 8px;text-align:center;color:white;font-size:11px">✈️<br>Seyahat</div>
+        <div style="background:#7c3aed;border-radius:12px;padding:12px 8px;text-align:center;color:white;font-size:11px">🌙<br>Sabah/Gece</div>
+        <div style="background:#7c3aed;border-radius:12px;padding:12px 8px;text-align:center;color:white;font-size:11px">🎉<br>Sosyal</div>
+        <div style="background:#9f6ef5;border-radius:12px;padding:12px 8px;text-align:center;color:white;font-size:11px">🛍️<br>Alışveriş</div>
+        <div style="background:#9f6ef5;border-radius:12px;padding:12px 8px;text-align:center;color:white;font-size:11px">💻<br>Çalışma</div>
+        <div style="background:#9f6ef5;border-radius:12px;padding:12px 8px;text-align:center;color:white;font-size:11px">📱<br>Teknoloji</div>
+        <div style="background:#9f6ef5;border-radius:12px;padding:12px 8px;text-align:center;color:white;font-size:11px">🏙️<br>Yaşam</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — 2 Kolonlu Grid</h3>
+      <p>Tüm kategoriler bir bakışta. Hızlı seçim, kompakt. Flutter GridView ile kolay.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="list" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#f0f9ff;padding:16px">
+      <div style="display:flex;flex-direction:column;gap:6px;max-width:220px;margin:0 auto">
+        <div style="background:#0ea5e9;border-radius:10px;padding:8px 12px;color:white;font-size:11px;display:flex;align-items:center;gap:8px"><span style="font-size:16px">🍕</span><span><b>Yemek & İçecek</b><br><span style="opacity:.8">Foodie mi, klasik mi?</span></span></div>
+        <div style="background:#0ea5e9;border-radius:10px;padding:8px 12px;color:white;font-size:11px;display:flex;align-items:center;gap:8px"><span style="font-size:16px">✈️</span><span><b>Seyahat Tarzı</b><br><span style="opacity:.8">Bütçe mi, lüks mü?</span></span></div>
+        <div style="background:#38bdf8;border-radius:10px;padding:8px 12px;color:white;font-size:11px;display:flex;align-items:center;gap:8px"><span style="font-size:16px">🌙</span><span><b>Sabah mı, Gece mi?</b><br><span style="opacity:.8">Rutin vs. gece kuşu</span></span></div>
+        <div style="background:#38bdf8;border-radius:10px;padding:8px 12px;color:white;font-size:11px;display:flex;align-items:center;gap:8px"><span style="font-size:16px">🎉</span><span><b>Sosyal Hayat</b><br><span style="opacity:.8">Introvert mi, extrovert mi?</span></span></div>
+        <div style="text-align:center;color:#666;font-size:10px">↕ kaydır</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Tam Genişlik Liste</h3>
+      <p>Her kategori kart olarak tam satır. Açıklama metni sığar, daha okunaklı. Kaydırarak geçilir.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="featured" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#fff7ed;padding:16px">
+      <div style="max-width:220px;margin:0 auto">
+        <div style="background:linear-gradient(135deg,#f97316,#ea580c);border-radius:16px;padding:20px;color:white;text-align:center;margin-bottom:8px">
+          <div style="font-size:28px">🍕</div>
+          <div style="font-size:13px;font-weight:bold;margin:4px 0">Yemek & İçecek</div>
+          <div style="font-size:10px;opacity:.85">Foodie mi, klasik mi?</div>
+          <div style="margin-top:10px;background:rgba(255,255,255,.25);border-radius:20px;padding:4px 12px;font-size:10px;display:inline-block">Başla →</div>
+        </div>
+        <div style="display:flex;gap:6px">
+          <div style="background:#fb923c;border-radius:10px;padding:8px;color:white;text-align:center;font-size:10px;flex:1">✈️<br>Seyahat</div>
+          <div style="background:#fb923c;border-radius:10px;padding:8px;color:white;text-align:center;font-size:10px;flex:1">🌙<br>Sabah/Gece</div>
+          <div style="background:#fdba74;border-radius:10px;padding:8px;color:white;text-align:center;font-size:10px;flex:1">+5</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Öne Çıkan + Mini Kartlar</h3>
+      <p>Bir kategori büyük hero kart, diğerleri küçük. "Günün testi" veya rastgele öne çıkarılabilir.</p>
+    </div>
+  </div>
+
+</div>

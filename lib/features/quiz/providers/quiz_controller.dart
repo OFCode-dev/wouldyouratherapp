@@ -3,8 +3,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../data/quiz_seed_data.dart';
 import '../models/quiz_question.dart';
 
-final quizControllerProvider =
-    NotifierProvider<QuizController, QuizState>(QuizController.new);
+final quizControllerProvider = NotifierProvider.family<QuizController, QuizState, String>(
+  (ref, categoryId) => QuizController(categoryId),
+);
 
 class QuizState {
   const QuizState({
@@ -66,9 +67,16 @@ class QuizState {
 }
 
 class QuizController extends Notifier<QuizState> {
+  late final String categoryId;
+
+  QuizController(this.categoryId);
+
   @override
   QuizState build() {
-    return QuizState.initial(quizSeedQuestions);
+    final categoryQuestions = quizSeedQuestions
+        .where((q) => q.categoryId == categoryId)
+        .toList();
+    return QuizState.initial(categoryQuestions);
   }
 
   void selectOption(String optionId) {
@@ -93,6 +101,9 @@ class QuizController extends Notifier<QuizState> {
   }
 
   void reset() {
-    state = QuizState.initial(quizSeedQuestions);
+    final categoryQuestions = quizSeedQuestions
+        .where((q) => q.categoryId == categoryId)
+        .toList();
+    state = QuizState.initial(categoryQuestions);
   }
 }
